@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Locator Module]">
+  <test thread-count="5" name="Vikram(failed)">
+    <classes>
+      <class name="testcases.locator.TC24VerifyResponseForValidLocationForBranches">
+        <methods>
+          <include name="ResponseForValidLocOfBranches"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.locator.TC24VerifyResponseForValidLocationForBranches -->
+      <class name="testcases.locator.TC03VerifyLocatorTextWithoutLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="verifyLocatorTextInput"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.locator.TC03VerifyLocatorTextWithoutLogin -->
+      <class name="testcases.locator.TC23VerifyResponseForValidLocationForATMs">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ResponseForValidLocOfATMs"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.locator.TC23VerifyResponseForValidLocationForATMs -->
+    </classes>
+  </test> <!-- Vikram(failed) -->
+</suite> <!-- Failed suite [ConBank Locator Module] -->

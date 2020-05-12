@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  Vikram</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vikram</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 04 12:54:46 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1234 seconds (1234044 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.accountbalance.TC05VerifyAccountBalModuleUsingAccountBalanceSupportedIntents.AccountBalByAccountType()'><b>AccountBalByAccountType</b><br>Test class: testcases.accountbalance.TC05VerifyAccountBalModuleUsingAccountBalanceSupportedIntents</td>
+<td></td>
+<td>42</td>
+<td>testcases.accountbalance.TC05VerifyAccountBalModuleUsingAccountBalanceSupportedIntents@1990a65e</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC12VerifyAccountBalModuleByCorrectAccountTypeEndingUtterance.AccountBalForCorrectAccountTypeEnding()'><b>AccountBalForCorrectAccountTypeEnding</b><br>Test class: testcases.accountbalance.TC12VerifyAccountBalModuleByCorrectAccountTypeEndingUtterance</td>
+<td></td>
+<td>40</td>
+<td>testcases.accountbalance.TC12VerifyAccountBalModuleByCorrectAccountTypeEndingUtterance@150c158</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC20VerifyAccountBalUsingCreditCardType.AccountBalForCreditCardType()'><b>AccountBalForCreditCardType</b><br>Test class: testcases.accountbalance.TC20VerifyAccountBalUsingCreditCardType</td>
+<td></td>
+<td>41</td>
+<td>testcases.accountbalance.TC20VerifyAccountBalUsingCreditCardType@2eda0940</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC19VerifyAccountBalUsingDebitCardType.AccountBalForDebitCardType()'><b>AccountBalForDebitCardType</b><br>Test class: testcases.accountbalance.TC19VerifyAccountBalUsingDebitCardType</td>
+<td></td>
+<td>41</td>
+<td>testcases.accountbalance.TC19VerifyAccountBalUsingDebitCardType@eb21112</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC14VerifyValidationMessageForDifferentAccountTypeEndingUtterance.AccountBalForDifferentAccountTypeEnding()'><b>AccountBalForDifferentAccountTypeEnding</b><br>Test class: testcases.accountbalance.TC14VerifyValidationMessageForDifferentAccountTypeEndingUtterance</td>
+<td></td>
+<td>43</td>
+<td>testcases.accountbalance.TC14VerifyValidationMessageForDifferentAccountTypeEndingUtterance@401e7803</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC13VerifyValidationMessageForWrongAccountTypeEndingUtterance.AccountBalForWrongAccountTypeEnding()'><b>AccountBalForWrongAccountTypeEnding</b><br>Test class: testcases.accountbalance.TC13VerifyValidationMessageForWrongAccountTypeEndingUtterance</td>
+<td></td>
+<td>45</td>
+<td>testcases.accountbalance.TC13VerifyValidationMessageForWrongAccountTypeEndingUtterance@4524411f</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC06VerifyAccountBalModuleUsingAccountBalOfCorrectAccountName.AccountBalOfAccountName()'><b>AccountBalOfAccountName</b><br>Test class: testcases.accountbalance.TC06VerifyAccountBalModuleUsingAccountBalOfCorrectAccountName</td>
+<td></td>
+<td>42</td>
+<td>testcases.accountbalance.TC06VerifyAccountBalModuleUsingAccountBalOfCorrectAccountName@64485a47</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC15VerifyAccountBalUsingAccountNumberEndingUtterance.AccountBalOfAccountNumberEnding()'><b>AccountBalOfAccountNumberEnding</b><br>Test class: testcases.accountbalance.TC15VerifyAccountBalUsingAccountNumberEndingUtterance</td>
+<td></td>
+<td>40</td>
+<td>testcases.accountbalance.TC15VerifyAccountBalUsingAccountNumberEndingUtterance@10dba097</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC09VerifyAccountBalModuleUsingAccountBalOfCorrectCASAAccount.AccountBalOfAccountType()'><b>AccountBalOfAccountType</b><br>Test class: testcases.accountbalance.TC09VerifyAccountBalModuleUsingAccountBalOfCorrectCASAAccount</td>
+<td></td>
+<td>42</td>
+<td>testcases.accountbalance.TC09VerifyAccountBalModuleUsingAccountBalOfCorrectCASAAccount@7276c8cd</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC08VerifyAccountBalModuleUsingAccountBalOfCorrectCardName.AccountBalOfCardName()'><b>AccountBalOfCardName</b><br>Test class: testcases.accountbalance.TC08VerifyAccountBalModuleUsingAccountBalOfCorrectCardName</td>
+<td></td>
+<td>41</td>
+<td>testcases.accountbalance.TC08VerifyAccountBalModuleUsingAccountBalOfCorrectCardName@6ec8211c</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC17VerifyAccountBalUsingCardNumberEndingUtterance.AccountBalOfCardNumberEnding()'><b>AccountBalOfCardNumberEnding</b><br>Test class: testcases.accountbalance.TC17VerifyAccountBalUsingCardNumberEndingUtterance</td>
+<td></td>
+<td>40</td>
+<td>testcases.accountbalance.TC17VerifyAccountBalUsingCardNumberEndingUtterance@704d6e83</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC11VerifyAccountBalModuleUsingAccountBalOfCreditAccountType.AccountBalOfCreditAccount()'><b>AccountBalOfCreditAccount</b><br>Test class: testcases.accountbalance.TC11VerifyAccountBalModuleUsingAccountBalOfCreditAccountType</td>
+<td></td>
+<td>42</td>
+<td>testcases.accountbalance.TC11VerifyAccountBalModuleUsingAccountBalOfCreditAccountType@2e3fc542</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC03VerifyUserAbleToClickAccountBalanceIconAfterLogin.AccountBalanceIconClickAfterLogin()'><b>AccountBalanceIconClickAfterLogin</b><br>Test class: testcases.accountbalance.TC03VerifyUserAbleToClickAccountBalanceIconAfterLogin</td>
+<td></td>
+<td>36</td>
+<td>testcases.accountbalance.TC03VerifyUserAbleToClickAccountBalanceIconAfterLogin@42607a4f</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC02VerifyUserAbleToClickAccountBalanceIconWithoutLogin.AccountBalanceIconWithoutLogin()'><b>AccountBalanceIconWithoutLogin</b><br>Test class: testcases.accountbalance.TC02VerifyUserAbleToClickAccountBalanceIconWithoutLogin</td>
+<td></td>
+<td>13</td>
+<td>testcases.accountbalance.TC02VerifyUserAbleToClickAccountBalanceIconWithoutLogin@4fb64261</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC04VerifyAccountBalanceTextAfterLogin.AccountBalanceTextAfterLogin()'><b>AccountBalanceTextAfterLogin</b><br>Test class: testcases.accountbalance.TC04VerifyAccountBalanceTextAfterLogin</td>
+<td></td>
+<td>53</td>
+<td>testcases.accountbalance.TC04VerifyAccountBalanceTextAfterLogin@782663d3</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC23VerifyAnythingElseMessageAfterEveryAccountBalChecks.AnythingElseResponseAfterEveryAccountBalCheck()'><b>AnythingElseResponseAfterEveryAccountBalCheck</b><br>Test class: testcases.accountbalance.TC23VerifyAnythingElseMessageAfterEveryAccountBalChecks</td>
+<td></td>
+<td>42</td>
+<td>testcases.accountbalance.TC23VerifyAnythingElseMessageAfterEveryAccountBalChecks@706a04ae</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC27VerifyUserAbleToCancelTheFlowAndGoToTheMainMenu.CancelAndGotoTheMainMenu()'><b>CancelAndGotoTheMainMenu</b><br>Test class: testcases.accountbalance.TC27VerifyUserAbleToCancelTheFlowAndGoToTheMainMenu</td>
+<td></td>
+<td>64</td>
+<td>testcases.accountbalance.TC27VerifyUserAbleToCancelTheFlowAndGoToTheMainMenu@67b467e9</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC21VerifyValidationMessageForUserNotHavingCreditCard.ResponseForUserNotHavingCreditCard()'><b>ResponseForUserNotHavingCreditCard</b><br>Test class: testcases.accountbalance.TC21VerifyValidationMessageForUserNotHavingCreditCard</td>
+<td></td>
+<td>44</td>
+<td>testcases.accountbalance.TC21VerifyValidationMessageForUserNotHavingCreditCard@3578436e</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC07VerifyValidationMessageForWrongAccountNameUtterance.ResponseForWrongAccountNameUtterance()'><b>ResponseForWrongAccountNameUtterance</b><br>Test class: testcases.accountbalance.TC07VerifyValidationMessageForWrongAccountNameUtterance</td>
+<td></td>
+<td>46</td>
+<td>testcases.accountbalance.TC07VerifyValidationMessageForWrongAccountNameUtterance@25bbf683</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC16VerifyValidationMessageForWrongAccountNumberEndingUtterance.ResponseForWrongAccountNumberEnding()'><b>ResponseForWrongAccountNumberEnding</b><br>Test class: testcases.accountbalance.TC16VerifyValidationMessageForWrongAccountNumberEndingUtterance</td>
+<td></td>
+<td>45</td>
+<td>testcases.accountbalance.TC16VerifyValidationMessageForWrongAccountNumberEndingUtterance@1786f9d5</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC18VerifyValidationMessageForWrongCardNumberEndingUtterance.ResponseForWrongCardNumberEnding()'><b>ResponseForWrongCardNumberEnding</b><br>Test class: testcases.accountbalance.TC18VerifyValidationMessageForWrongCardNumberEndingUtterance</td>
+<td></td>
+<td>45</td>
+<td>testcases.accountbalance.TC18VerifyValidationMessageForWrongCardNumberEndingUtterance@43a0cee9</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC10VerifyValidationMessageForWrongAccountType.ValidationMsgForWrongAccountType()'><b>ValidationMsgForWrongAccountType</b><br>Test class: testcases.accountbalance.TC10VerifyValidationMessageForWrongAccountType</td>
+<td></td>
+<td>44</td>
+<td>testcases.accountbalance.TC10VerifyValidationMessageForWrongAccountType@544a2ea6</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC26VerifyUserAbleToViewTransactionsForTheSelectedAccount.ViewTransactionsForSelectedAccount()'><b>ViewTransactionsForSelectedAccount</b><br>Test class: testcases.accountbalance.TC26VerifyUserAbleToViewTransactionsForTheSelectedAccount</td>
+<td></td>
+<td>57</td>
+<td>testcases.accountbalance.TC26VerifyUserAbleToViewTransactionsForTheSelectedAccount@10a035a0</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC25VerifyUserAbleToClickTheViewTransactionsForTheSelectedAccount.clickViewTransactionsForSelectedAccount()'><b>clickViewTransactionsForSelectedAccount</b><br>Test class: testcases.accountbalance.TC25VerifyUserAbleToClickTheViewTransactionsForTheSelectedAccount</td>
+<td></td>
+<td>53</td>
+<td>testcases.accountbalance.TC25VerifyUserAbleToClickTheViewTransactionsForTheSelectedAccount@6eceb130</td></tr>
+<tr>
+<td title='testcases.accountbalance.TC01VerifyAccountBalanceIconIsAsPerUI.verifyAccountBalanceIcon()'><b>verifyAccountBalanceIcon</b><br>Test class: testcases.accountbalance.TC01VerifyAccountBalanceIconIsAsPerUI</td>
+<td></td>
+<td>11</td>
+<td>testcases.accountbalance.TC01VerifyAccountBalanceIconIsAsPerUI@18bf3d14</td></tr>
+</table><p>
+</body>
+</html>

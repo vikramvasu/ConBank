@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [ConBank View Transaction]]">
+  <test thread-count="5" name="Vaira(failed)(failed)">
+    <classes>
+      <class name="testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard">
+        <methods>
+          <include name="ViewTransactionCASAaccountUtterance"/>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard -->
+      <class name="testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+      <class name="testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ViewTransactionCASAaccountUtterance"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance -->
+      <class name="testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong -->
+      <class name="testcases.viewtransaction.TC05ViewTransactionAccountName">
+        <methods>
+          <include name="ViewTransactionAxcessPlus"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ViewTransactionSupervalue"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC05ViewTransactionAccountName -->
+      <class name="testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith -->
+      <class name="testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard">
+        <methods>
+          <include name="ViewTransactionCASAaccountUtterance"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard -->
+      <class name="testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ViewTransactionCorrectCASAaccountType"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType -->
+      <class name="testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber -->
+      <class name="testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ViewTransactionWrongCardNumberEndingwith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith -->
+      <class name="testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+          <include name="ViewTransactionAccountTypeEndingwithWrongAccountnumber"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber -->
+    </classes>
+  </test> <!-- Vaira(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [ConBank View Transaction]] -->

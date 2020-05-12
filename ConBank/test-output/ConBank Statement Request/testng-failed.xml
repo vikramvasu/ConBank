@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Statement Request]">
+  <test thread-count="5" name="Vikram(failed)">
+    <classes>
+      <class name="testcases.statementrequest.TC33StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC33StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType -->
+      <class name="testcases.statementrequest.TC44BotResponseForSameCardNumberEndingIntentGivenTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="StatementRequestTwoForCardNumberEndingIntentTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestOneForCardNumberEndingIntentTwice"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC44BotResponseForSameCardNumberEndingIntentGivenTwice -->
+      <class name="testcases.statementrequest.TC53ValidationResponseForWrongMonth">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ResponseForWrongMonth"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC53ValidationResponseForWrongMonth -->
+      <class name="testcases.statementrequest.TC51ValidationResponseForMonthBefore6Months">
+        <methods>
+          <include name="ResponseForMonthGivenBefore6Months"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC51ValidationResponseForMonthBefore6Months -->
+      <class name="testcases.statementrequest.TC20VerifyNoAccountAvailableResponseForSavingsAccount">
+        <methods>
+          <include name="VerifyNoAccountAvailableForNoSavingsAccountUser"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC20VerifyNoAccountAvailableResponseForSavingsAccount -->
+      <class name="testcases.statementrequest.TC49StatementRequestByMonthSupportedIntentUtterance">
+        <methods>
+          <include name="StatementRequestIntentOneByMonth"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC49StatementRequestByMonthSupportedIntentUtterance -->
+      <class name="testcases.statementrequest.TC43StatementRequestDownloadForCardNumberNotAvailable">
+        <methods>
+          <include name="StatementRequestForCardNumberEndingNotAvailableTwo"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForCardNumberEndingNotAvailableOne"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC43StatementRequestDownloadForCardNumberNotAvailable -->
+      <class name="testcases.statementrequest.TC01SRIconCheckWithoutLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestIconCheckWithoutLogin"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC01SRIconCheckWithoutLogin -->
+      <class name="testcases.statementrequest.TC21VerifyNoAccountAvailableResponseForCheckingAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="VerifyNoAccountAvailableForNoCheckingAccountUser"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC21VerifyNoAccountAvailableResponseForCheckingAccount -->
+      <class name="testcases.statementrequest.TC54StatementRequestByCorrectMonthTwice">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ResponseForCorrectMonthTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC54StatementRequestByCorrectMonthTwice -->
+      <class name="testcases.statementrequest.TC16VerifyNoAccountAvailableResponseForAccountSelection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyNoAccountAvailableForAccountSelectionOne"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC16VerifyNoAccountAvailableResponseForAccountSelection -->
+      <class name="testcases.statementrequest.TC34ResponseOfStatementRequestForAccountTypeAndAccountNumberGivenTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForAccountTypeAndAccountNumberGivenTwice"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC34ResponseOfStatementRequestForAccountTypeAndAccountNumberGivenTwice -->
+      <class name="testcases.statementrequest.TC12VerifyTwoInvalidAttemptsResponseForWrongAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="BotResponseFor2InvalidWrongAccount"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC12VerifyTwoInvalidAttemptsResponseForWrongAccount -->
+      <class name="testcases.statementrequest.TC27VerifyNoAccountAvailableResponseForUsersNotHavingCheckingAccount">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyNoAccountAvailableForNoCheckingAccountUser"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC27VerifyNoAccountAvailableResponseForUsersNotHavingCheckingAccount -->
+    </classes>
+  </test> <!-- Vikram(failed) -->
+</suite> <!-- Failed suite [ConBank Statement Request] -->

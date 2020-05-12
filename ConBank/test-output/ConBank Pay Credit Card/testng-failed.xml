@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Pay Credit Card]">
+  <test thread-count="5" name="Vikram(failed)">
+    <classes>
+      <class name="testcases.paycreditcard.TC07PayCreditCardSelectAmountType">
+        <methods>
+          <include name="PayCreditCardSelectStatementAmount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC07PayCreditCardSelectAmountType -->
+      <class name="testcases.paycreditcard.TC05PayCreditCardSelecttheAccounts">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PayCreditCardSelecttheRegularCurrentAccount"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC05PayCreditCardSelecttheAccounts -->
+      <class name="testcases.paycreditcard.TC50PayCreditCardPayNoCreditCardUser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="UserNoAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC50PayCreditCardPayNoCreditCardUser -->
+      <class name="testcases.paycreditcard.TC19PayCreditCardTwoInvalidAttemptsWhileConfirmingthePayment">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="PayCreditCardUserEntersWrongConfirmationInputWhileConfirmingthePayment"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC19PayCreditCardTwoInvalidAttemptsWhileConfirmingthePayment -->
+      <class name="testcases.paycreditcard.TC44PayCreditCardPayUtteranceBase3">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="PayCreditCardPayUtteranceBase"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC44PayCreditCardPayUtteranceBase3 -->
+      <class name="testcases.paycreditcard.TC51PayCreditCardPayNoAccountUser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="UserNoAccount"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC51PayCreditCardPayNoAccountUser -->
+      <class name="testcases.paycreditcard.TC40PayCreditCardPayUtteranceBase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PayCreditCardPayUtteranceBase"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC40PayCreditCardPayUtteranceBase -->
+      <class name="testcases.paycreditcard.TC37PayCreditCardPayUtteranceBasedOnAccountType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="PayCreditCardPayPlatinumRewardsOtherAmount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC37PayCreditCardPayUtteranceBasedOnAccountType -->
+      <class name="testcases.paycreditcard.TC21PayCreditCardTwoInvalidAttemptsWhileEnteringtheOTP">
+        <methods>
+          <include name="TwoInvalidAttemptswhileAccountSelection"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC21PayCreditCardTwoInvalidAttemptsWhileEnteringtheOTP -->
+      <class name="testcases.paycreditcard.TC22PayCreditCardNoAccountstoSelectWhilePayingCreditCard">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="NoAccountstoSelectWhilePayingCreditCard"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC22PayCreditCardNoAccountstoSelectWhilePayingCreditCard -->
+      <class name="testcases.paycreditcard.TC34PayCreditCardPayUtteranceBasedOnAmountType">
+        <methods>
+          <include name="PayCreditCardPayPlatinumRewardsOtherAmount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC34PayCreditCardPayUtteranceBasedOnAmountType -->
+      <class name="testcases.paycreditcard.TC41PayCreditCardPayNoAccountUserPayCreditCard">
+        <methods>
+          <include name="UserNoAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC41PayCreditCardPayNoAccountUserPayCreditCard -->
+      <class name="testcases.paycreditcard.TC45PayCreditCardName">
+        <methods>
+          <include name="PayUltimateCard"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC45PayCreditCardName -->
+      <class name="testcases.paycreditcard.TC14PayCreditCardValidationMessageWhentheUserEntersWrongCardName">
+        <methods>
+          <include name="PayCreditCardValidationMessageWhentheUserEntersWrongCardName"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC14PayCreditCardValidationMessageWhentheUserEntersWrongCardName -->
+      <class name="testcases.paycreditcard.TC16PayCreditCardValidationMessageWhentheUserEntersWrongPaymentType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="PayCreditCardValidationMessageWhentheUserEntersWrongPaymentType"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC16PayCreditCardValidationMessageWhentheUserEntersWrongPaymentType -->
+      <class name="testcases.paycreditcard.TC42PayCreditCardPayUtteranceBase">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PayCreditCardPayUtteranceBase"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC42PayCreditCardPayUtteranceBase -->
+      <class name="testcases.paycreditcard.TC08PayCreditCardPaymentConfirmation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="PayCreditCardPaymentConfirmation"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC08PayCreditCardPaymentConfirmation -->
+      <class name="testcases.paycreditcard.TC57PayCreditCardPayEnteredtheWrongAmountTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="OtherAmountvalidation"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC57PayCreditCardPayEnteredtheWrongAmountTwice -->
+      <class name="testcases.paycreditcard.TC39PayCreditCardPayUtteranceBase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="PayCreditCardPayUtteranceBase"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC39PayCreditCardPayUtteranceBase -->
+      <class name="testcases.paycreditcard.TC29PayCreditCardTwoInvalidAttemptsWhileEnteringtheOTP">
+        <methods>
+          <include name="TwoInvalidAttemptswhileAccountSelection"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC29PayCreditCardTwoInvalidAttemptsWhileEnteringtheOTP -->
+      <class name="testcases.paycreditcard.TC38PayCreditCardPayUtteranceBase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="PayCreditCardPayUtteranceBase"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC38PayCreditCardPayUtteranceBase -->
+      <class name="testcases.paycreditcard.TC27PayCreditCardUsertoClickOnOtherAmountEntertheAmount">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="UsertoClickOnOtherAmountEntertheAmount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC27PayCreditCardUsertoClickOnOtherAmountEntertheAmount -->
+      <class name="testcases.paycreditcard.TC13PayCreditCardTwoInvalidAttemptswhileAccountSelection">
+        <methods>
+          <include name="PayCreditCardTwoInvalidAttemptswhileAccountSelection"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC13PayCreditCardTwoInvalidAttemptswhileAccountSelection -->
+      <class name="testcases.paycreditcard.TC01PayCreditCardIconCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="PayCreditCardIconCheck"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC01PayCreditCardIconCheck -->
+      <class name="testcases.paycreditcard.TC15PayCreditCardTwoInvalidAttemptswhileCardSelection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="PayCreditCardTwoInvalidAttemptswhileCardSelection"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC15PayCreditCardTwoInvalidAttemptswhileCardSelection -->
+      <class name="testcases.paycreditcard.TC17PayCreditCardTwoInvalidAttemptswhilePaymentTypeSelection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="PayCreditCardTwoInvalidAttemptswhilePaymentTypeSelection"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC17PayCreditCardTwoInvalidAttemptswhilePaymentTypeSelection -->
+      <class name="testcases.paycreditcard.TC55PayCreditCardPayEnteredtheAmountDecimalCheck">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="OtherAmountvalidation"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC55PayCreditCardPayEnteredtheAmountDecimalCheck -->
+      <class name="testcases.paycreditcard.TC31PayCreditCardUserGivesUtterancebasedonAccountType">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="UtterancebasedonAccountNameAxcessPlusAccount"/>
+          <include name="beforeSuite"/>
+          <include name="UtterancebasedonAccountNameSavingAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC31PayCreditCardUserGivesUtterancebasedonAccountType -->
+      <class name="testcases.paycreditcard.TC35PayCreditCardPayUtteranceBasedOnAccountandCard">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PayCreditCardPayUtteranceBasedOnAccountandCard"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC35PayCreditCardPayUtteranceBasedOnAccountandCard -->
+      <class name="testcases.paycreditcard.TC11PayCreditCardViewTransactionCancellationMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="PayCreditCardViewTransactionCancellationMessage"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.paycreditcard.TC11PayCreditCardViewTransactionCancellationMessage -->
+    </classes>
+  </test> <!-- Vikram(failed) -->
+</suite> <!-- Failed suite [ConBank Pay Credit Card] -->

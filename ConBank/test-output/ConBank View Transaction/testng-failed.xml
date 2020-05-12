@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank View Transaction]">
+  <test thread-count="5" name="Vaira(failed)" parallel="methods">
+    <classes>
+      <class name="testcases.viewtransaction.TC05ViewTransactionAccountName">
+        <methods>
+          <include name="ViewTransactionAxcessPlus"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ViewTransactionSupervalue"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC05ViewTransactionAccountName -->
+      <class name="testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard">
+        <methods>
+          <include name="ViewTransactionCASAaccountUtterance"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard -->
+    </classes>
+  </test> <!-- Vaira(failed) -->
+</suite> <!-- Failed suite [ConBank View Transaction] -->

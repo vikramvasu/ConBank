@@ -1,0 +1,407 @@
+<html>
+<head>
+<title>TestNG:  Vaira</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vaira</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 09:31:49 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>381 seconds (381849 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus()'><b>ViewTransactionAxcessPlus</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;VIKRAM-VASU&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:776)
+	at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:805)
+	at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+	at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus(TC05ViewTransactionAccountName.java:50)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace295503643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace295503643'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;VIKRAM-VASU&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:776)
+	at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:805)
+	at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+	at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus(TC05ViewTransactionAccountName.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>21</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:28)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:67)
+	at testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance(TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace607165582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace607165582'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:28)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:67)
+	at testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance(TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>45</td>
+<td>testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@401e7803</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue()'><b>ViewTransactionSupervalue</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;VIKRAM-VASU&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+*** Element info: {Using=xpath, value=//div[@class=&apos;slds-spinner slds-spinner--small slds-spinner--brand&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:803)
+	at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+	at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue(TC05ViewTransactionAccountName.java:67)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1857153606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1857153606'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;VIKRAM-VASU&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+*** Element info: {Using=xpath, value=//div[@class=&apos;slds-spinner slds-spinner--small slds-spinner--brand&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:803)
+	at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+	at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue(TC05ViewTransactionAccountName.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>20</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.viewtransaction.TC04ClickViewTransactionButton.ClickViewTransactionButton()'><b>ClickViewTransactionButton</b><br>Test class: testcases.viewtransaction.TC04ClickViewTransactionButton</td>
+<td></td>
+<td>66</td>
+<td>testcases.viewtransaction.TC04ClickViewTransactionButton@396e2f39</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAccountName()'><b>ViewTransactionAccountName</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td></td>
+<td>62</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber</td>
+<td></td>
+<td>43</td>
+<td>testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@1990a65e</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber</td>
+<td></td>
+<td>54</td>
+<td>testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@25bbf683</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith</td>
+<td></td>
+<td>43</td>
+<td>testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@6ec8211c</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong</td>
+<td></td>
+<td>57</td>
+<td>testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@7276c8cd</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectCardNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectCardNumber</b><br>Test class: testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith</td>
+<td></td>
+<td>46</td>
+<td>testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@544a2ea6</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.ViewTransactionAccountTypeEndingwithWrongAccountnumber()'><b>ViewTransactionAccountTypeEndingwithWrongAccountnumber</b><br>Test class: testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber</td>
+<td></td>
+<td>65</td>
+<td>testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@64485a47</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC30ViewTransactionUI.ViewTransactionAccountTypeEndingwithWrongAccountnumber()'><b>ViewTransactionAccountTypeEndingwithWrongAccountnumber</b><br>Test class: testcases.viewtransaction.TC30ViewTransactionUI</td>
+<td></td>
+<td>47</td>
+<td>testcases.viewtransaction.TC30ViewTransactionUI@eb21112</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC01ViewTransactionAfterLogin.ViewTransactionAfterLogin()'><b>ViewTransactionAfterLogin</b><br>Test class: testcases.viewtransaction.TC01ViewTransactionAfterLogin</td>
+<td></td>
+<td>50</td>
+<td>testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance</td>
+<td></td>
+<td>62</td>
+<td>testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@782663d3</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard</td>
+<td></td>
+<td>64</td>
+<td>testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@150c158</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard</td>
+<td></td>
+<td>61</td>
+<td>testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@4524411f</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount</td>
+<td></td>
+<td>49</td>
+<td>testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount@10dba097</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith</td>
+<td></td>
+<td>49</td>
+<td>testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith@1786f9d5</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction</td>
+<td></td>
+<td>39</td>
+<td>testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction@43a0cee9</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard</td>
+<td></td>
+<td>43</td>
+<td>testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard@704d6e83</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck.ViewTransactionCorrectAccountNameBalanceCheck()'><b>ViewTransactionCorrectAccountNameBalanceCheck</b><br>Test class: testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck</td>
+<td></td>
+<td>45</td>
+<td>testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@12c8a2c0</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount.ViewTransactionCorrectAccountTypeUserDonotHaveAccount()'><b>ViewTransactionCorrectAccountTypeUserDonotHaveAccount</b><br>Test class: testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount</td>
+<td></td>
+<td>45</td>
+<td>testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount@42607a4f</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType.ViewTransactionCorrectCASAaccountType()'><b>ViewTransactionCorrectCASAaccountType</b><br>Test class: testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType</td>
+<td></td>
+<td>52</td>
+<td>testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@4fb64261</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC08ViewTransactionCorrectCardType.ViewTransactionCorrectCardType()'><b>ViewTransactionCorrectCardType</b><br>Test class: testcases.viewtransaction.TC08ViewTransactionCorrectCardType</td>
+<td></td>
+<td>43</td>
+<td>testcases.viewtransaction.TC08ViewTransactionCorrectCardType@365185bd</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC03ViewTransactionUsingUtterance.ViewTransactionUsingUtterance()'><b>ViewTransactionUsingUtterance</b><br>Test class: testcases.viewtransaction.TC03ViewTransactionUsingUtterance</td>
+<td></td>
+<td>52</td>
+<td>testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2de8284b</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC02ViewTransactionWithoutLogin.ViewTransactionWithoutLogin()'><b>ViewTransactionWithoutLogin</b><br>Test class: testcases.viewtransaction.TC02ViewTransactionWithoutLogin</td>
+<td></td>
+<td>47</td>
+<td>testcases.viewtransaction.TC02ViewTransactionWithoutLogin@78ac1102</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC07ViewTransactionWrongAccountName.ViewTransactionWrongAccountName()'><b>ViewTransactionWrongAccountName</b><br>Test class: testcases.viewtransaction.TC07ViewTransactionWrongAccountName</td>
+<td></td>
+<td>49</td>
+<td>testcases.viewtransaction.TC07ViewTransactionWrongAccountName@7e0e6aa2</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith.ViewTransactionWrongCardNumberEndingwith()'><b>ViewTransactionWrongCardNumberEndingwith</b><br>Test class: testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith</td>
+<td></td>
+<td>49</td>
+<td>testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@2e3fc542</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC09ViewTransactionWrongCardType.ViewTransactionWrongCardType()'><b>ViewTransactionWrongCardType</b><br>Test class: testcases.viewtransaction.TC09ViewTransactionWrongCardType</td>
+<td></td>
+<td>51</td>
+<td>testcases.viewtransaction.TC09ViewTransactionWrongCardType@18bf3d14</td></tr>
+</table><p>
+</body>
+</html>

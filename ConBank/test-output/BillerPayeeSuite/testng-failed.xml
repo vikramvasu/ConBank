@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BillerPayeeSuite]">
+  <test thread-count="5" name="BillerPayeeTestCases(failed)">
+    <classes>
+      <class name="testcases.DBP16151">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="validateBillerCategory"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP16151 -->
+      <class name="testcases.DBP16170">
+        <methods>
+          <include name="CreateApproveBeneficiary"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP16170 -->
+    </classes>
+  </test> <!-- BillerPayeeTestCases(failed) -->
+</suite> <!-- Failed suite [BillerPayeeSuite] -->

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Cheque Book Request]">
+  <test thread-count="5" name="chequebookrequest(failed)">
+    <classes>
+      <class name="testcases.chequebookrequest.TC06ChequeBookRequestAccountSelectionByClick">
+        <methods>
+          <include name="ChequeBookRequestAccountSelectionByClickAxcessPlusAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC06ChequeBookRequestAccountSelectionByClick -->
+      <class name="testcases.chequebookrequest.TC25ChequeBookRequestbyAccountNumberwhichisnotlinkedtotheAccounttype">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC25ChequeBookRequestbyAccountNumberwhichisnotlinkedtotheAccounttype -->
+      <class name="testcases.chequebookrequest.TC17ChequeBookRequestbyAccountNameUserDontHave">
+        <methods>
+          <include name="ChequeBookRequestTextAfterLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC17ChequeBookRequestbyAccountNameUserDontHave -->
+      <class name="testcases.chequebookrequest.TC28ChequeBookRequestbyAccountTypeendingwithwhichisnotavailable">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC28ChequeBookRequestbyAccountTypeendingwithwhichisnotavailable -->
+      <class name="testcases.chequebookrequest.TC03ChequeBookRequestIconClickAfterLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestIconClickAfterLogin"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC03ChequeBookRequestIconClickAfterLogin -->
+      <class name="testcases.chequebookrequest.TC19ChequeBookRequestbyAccountTypeUserdonthave">
+        <methods>
+          <include name="ChequeBookRequestbyAccountTypeCorrectAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC19ChequeBookRequestbyAccountTypeUserdonthave -->
+      <class name="testcases.chequebookrequest.TC26ChequeBookRequestbyAccountNumberwhichislinkedtoOtherAccounttype">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC26ChequeBookRequestbyAccountNumberwhichislinkedtoOtherAccounttype -->
+      <class name="testcases.chequebookrequest.TC13ChequeBookRequestCancellationMessageCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestCancellationMessageCheck"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC13ChequeBookRequestCancellationMessageCheck -->
+      <class name="testcases.chequebookrequest.TC14ChequeBookRequestIsthereanythingelseinCancellationMessageCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestCancellationMessageCheck"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC14ChequeBookRequestIsthereanythingelseinCancellationMessageCheck -->
+      <class name="testcases.chequebookrequest.TC21ChequeBookRequestbyCorrectAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC21ChequeBookRequestbyCorrectAccountNumberEndingWith -->
+      <class name="testcases.chequebookrequest.TC04ChequeBookRequestTextAfterLogin">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ChequeBookRequestTextAfterLogin"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC04ChequeBookRequestTextAfterLogin -->
+      <class name="testcases.chequebookrequest.TC02ChequeBookRequestIconClickWithoutLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="ChequeBookRequestIconClickWithoutLogin"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC02ChequeBookRequestIconClickWithoutLogin -->
+      <class name="testcases.chequebookrequest.TC16ChequeBookRequestbyWrongAccountName">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ChequeBookRequestTextAfterLogin"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC16ChequeBookRequestbyWrongAccountName -->
+      <class name="testcases.chequebookrequest.TC29ChequeBookRequestWrongInputWhileSelectingAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestWrongInputWhileSelectingAccount"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC29ChequeBookRequestWrongInputWhileSelectingAccount -->
+      <class name="testcases.chequebookrequest.TC11ChequeBookRequestSuccesfulMessageCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestSuccesfulMessageCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC11ChequeBookRequestSuccesfulMessageCheck -->
+      <class name="testcases.chequebookrequest.TC30ChequeBookRequestWrongInputTwiceWhileSelectingAccount">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestWrongInputTwiceWhileSelectingAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC30ChequeBookRequestWrongInputTwiceWhileSelectingAccount -->
+      <class name="testcases.chequebookrequest.TC22ChequeBookRequestbyWrongAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC22ChequeBookRequestbyWrongAccountNumberEndingWith -->
+      <class name="testcases.chequebookrequest.TC23ChequeBookRequestbyIncorrectAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC23ChequeBookRequestbyIncorrectAccountNumberEndingWith -->
+      <class name="testcases.chequebookrequest.TC27ChequeBookRequestbyIncorrectAccountnumberending">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC27ChequeBookRequestbyIncorrectAccountnumberending -->
+      <class name="testcases.chequebookrequest.TC24ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith">
+        <methods>
+          <include name="ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC24ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith -->
+    </classes>
+  </test> <!-- chequebookrequest(failed) -->
+</suite> <!-- Failed suite [ConBank Cheque Book Request] -->

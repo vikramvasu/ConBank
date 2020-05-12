@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="104" total="133" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ConBank View Transaction" duration-ms="381849" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:38:11 IST">
+    <groups>
+    </groups>
+    <test name="Vaira" duration-ms="381849" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:38:11 IST">
+      <class name="testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@2e3fc542]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:35:33 IST" finished-at="2020-05-08T09:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@2e3fc542]" name="beforeMethod" is-config="true" duration-ms="8712" started-at="2020-05-08T09:35:33 IST" finished-at="2020-05-08T09:35:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionWrongCardNumberEndingwith()[pri:0, instance:testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@2e3fc542]" name="ViewTransactionWrongCardNumberEndingwith" duration-ms="49080" started-at="2020-05-08T09:35:41 IST" finished-at="2020-05-08T09:36:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionWrongCardNumberEndingwith -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@2e3fc542]" name="afterMethod" is-config="true" duration-ms="887" started-at="2020-05-08T09:36:30 IST" finished-at="2020-05-08T09:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith -->
+      <class name="testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@4524411f]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:35:42 IST" finished-at="2020-05-08T09:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@4524411f]" name="beforeMethod" is-config="true" duration-ms="9915" started-at="2020-05-08T09:35:42 IST" finished-at="2020-05-08T09:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@4524411f]" name="ViewTransactionCASAaccountUtterance" duration-ms="61534" started-at="2020-05-08T09:35:52 IST" finished-at="2020-05-08T09:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@4524411f]" name="afterMethod" is-config="true" duration-ms="992" started-at="2020-05-08T09:36:53 IST" finished-at="2020-05-08T09:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard -->
+      <class name="testcases.viewtransaction.TC07ViewTransactionWrongAccountName">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC07ViewTransactionWrongAccountName@7e0e6aa2]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:09 IST" finished-at="2020-05-08T09:33:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC07ViewTransactionWrongAccountName@7e0e6aa2]" name="beforeMethod" is-config="true" duration-ms="7555" started-at="2020-05-08T09:33:09 IST" finished-at="2020-05-08T09:33:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionWrongAccountName()[pri:0, instance:testcases.viewtransaction.TC07ViewTransactionWrongAccountName@7e0e6aa2]" name="ViewTransactionWrongAccountName" duration-ms="49290" started-at="2020-05-08T09:33:17 IST" finished-at="2020-05-08T09:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionWrongAccountName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC07ViewTransactionWrongAccountName@7e0e6aa2]" name="afterMethod" is-config="true" duration-ms="693" started-at="2020-05-08T09:34:06 IST" finished-at="2020-05-08T09:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC07ViewTransactionWrongAccountName -->
+      <class name="testcases.viewtransaction.TC09ViewTransactionWrongCardType">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC09ViewTransactionWrongCardType@18bf3d14]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC09ViewTransactionWrongCardType@18bf3d14]" name="beforeMethod" is-config="true" duration-ms="8934" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionWrongCardType()[pri:0, instance:testcases.viewtransaction.TC09ViewTransactionWrongCardType@18bf3d14]" name="ViewTransactionWrongCardType" duration-ms="51944" started-at="2020-05-08T09:33:33 IST" finished-at="2020-05-08T09:34:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionWrongCardType -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC09ViewTransactionWrongCardType@18bf3d14]" name="afterMethod" is-config="true" duration-ms="1580" started-at="2020-05-08T09:34:25 IST" finished-at="2020-05-08T09:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC09ViewTransactionWrongCardType -->
+      <class name="testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="9764" started-at="2020-05-08T09:36:31 IST" finished-at="2020-05-08T09:36:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith@1786f9d5]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:36:31 IST" finished-at="2020-05-08T09:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith@1786f9d5]" name="ViewTransactionCASAaccountUtterance" duration-ms="49438" started-at="2020-05-08T09:36:41 IST" finished-at="2020-05-08T09:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith@1786f9d5]" name="afterMethod" is-config="true" duration-ms="906" started-at="2020-05-08T09:37:31 IST" finished-at="2020-05-08T09:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC25ViewTransactionIsThereAnythingElseICanHelpYouWith -->
+      <class name="testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@1990a65e]" name="beforeMethod" is-config="true" duration-ms="9266" started-at="2020-05-08T09:34:18 IST" finished-at="2020-05-08T09:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@1990a65e]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:34:18 IST" finished-at="2020-05-08T09:34:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithCorrectAccountNumber()[pri:0, instance:testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@1990a65e]" name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber" duration-ms="43772" started-at="2020-05-08T09:34:27 IST" finished-at="2020-05-08T09:35:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@1990a65e]" name="afterMethod" is-config="true" duration-ms="1242" started-at="2020-05-08T09:35:11 IST" finished-at="2020-05-08T09:35:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+      <class name="testcases.viewtransaction.TC01ViewTransactionAfterLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="beforeSuite" is-config="true" duration-ms="211" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="beforeMethod" is-config="true" duration-ms="13367" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionAfterLogin()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="ViewTransactionAfterLogin" duration-ms="50503" started-at="2020-05-08T09:32:02 IST" finished-at="2020-05-08T09:32:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAfterLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="afterMethod" is-config="true" duration-ms="1116" started-at="2020-05-08T09:32:53 IST" finished-at="2020-05-08T09:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-08T09:38:11 IST" finished-at="2020-05-08T09:38:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.viewtransaction.TC01ViewTransactionAfterLogin@3891771e]" name="afterSuite" is-config="true" duration-ms="547" started-at="2020-05-08T09:38:11 IST" finished-at="2020-05-08T09:38:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.viewtransaction.TC01ViewTransactionAfterLogin -->
+      <class name="testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction@43a0cee9]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:36:54 IST" finished-at="2020-05-08T09:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction@43a0cee9]" name="beforeMethod" is-config="true" duration-ms="9572" started-at="2020-05-08T09:36:54 IST" finished-at="2020-05-08T09:37:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction@43a0cee9]" name="ViewTransactionCASAaccountUtterance" duration-ms="39858" started-at="2020-05-08T09:37:04 IST" finished-at="2020-05-08T09:37:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction@43a0cee9]" name="afterMethod" is-config="true" duration-ms="961" started-at="2020-05-08T09:37:44 IST" finished-at="2020-05-08T09:37:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC27ViewTransactionwhenThereIsNoTransaction -->
+      <class name="testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@7276c8cd]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:35:12 IST" finished-at="2020-05-08T09:35:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@7276c8cd]" name="beforeMethod" is-config="true" duration-ms="10198" started-at="2020-05-08T09:35:12 IST" finished-at="2020-05-08T09:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithCorrectAccountNumber()[pri:0, instance:testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@7276c8cd]" name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber" duration-ms="57399" started-at="2020-05-08T09:35:22 IST" finished-at="2020-05-08T09:36:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@7276c8cd]" name="afterMethod" is-config="true" duration-ms="1131" started-at="2020-05-08T09:36:19 IST" finished-at="2020-05-08T09:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong -->
+      <class name="testcases.viewtransaction.TC04ClickViewTransactionButton">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC04ClickViewTransactionButton@396e2f39]" name="setData" is-config="true" duration-ms="4" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC04ClickViewTransactionButton@396e2f39]" name="beforeMethod" is-config="true" duration-ms="13307" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickViewTransactionButton()[pri:0, instance:testcases.viewtransaction.TC04ClickViewTransactionButton@396e2f39]" name="ClickViewTransactionButton" duration-ms="66110" started-at="2020-05-08T09:32:02 IST" finished-at="2020-05-08T09:33:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickViewTransactionButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC04ClickViewTransactionButton@396e2f39]" name="afterMethod" is-config="true" duration-ms="864" started-at="2020-05-08T09:33:08 IST" finished-at="2020-05-08T09:33:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC04ClickViewTransactionButton -->
+      <class name="testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@401e7803]" name="beforeMethod" is-config="true" duration-ms="8853" started-at="2020-05-08T09:36:16 IST" finished-at="2020-05-08T09:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@401e7803]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:36:16 IST" finished-at="2020-05-08T09:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="FAIL" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@401e7803]" name="ViewTransactionCASAaccountUtterance" duration-ms="45676" started-at="2020-05-08T09:36:25 IST" finished-at="2020-05-08T09:37:10 IST">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:28)
+at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:67)
+at testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance(TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@401e7803]" name="afterMethod" is-config="true" duration-ms="758" started-at="2020-05-08T09:37:10 IST" finished-at="2020-05-08T09:37:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard -->
+      <class name="testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@25bbf683]" name="beforeMethod" is-config="true" duration-ms="8934" started-at="2020-05-08T09:34:27 IST" finished-at="2020-05-08T09:34:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@25bbf683]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:34:27 IST" finished-at="2020-05-08T09:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithCorrectAccountNumber()[pri:0, instance:testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@25bbf683]" name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber" duration-ms="54421" started-at="2020-05-08T09:34:36 IST" finished-at="2020-05-08T09:35:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@25bbf683]" name="afterMethod" is-config="true" duration-ms="1852" started-at="2020-05-08T09:35:31 IST" finished-at="2020-05-08T09:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber -->
+      <class name="testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@150c158]" name="beforeMethod" is-config="true" duration-ms="8756" started-at="2020-05-08T09:35:39 IST" finished-at="2020-05-08T09:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@150c158]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:35:39 IST" finished-at="2020-05-08T09:35:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@150c158]" name="ViewTransactionCASAaccountUtterance" duration-ms="64107" started-at="2020-05-08T09:35:48 IST" finished-at="2020-05-08T09:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@150c158]" name="afterMethod" is-config="true" duration-ms="1582" started-at="2020-05-08T09:36:52 IST" finished-at="2020-05-08T09:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard -->
+      <class name="testcases.viewtransaction.TC03ViewTransactionUsingUtterance">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2de8284b]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2de8284b]" name="beforeMethod" is-config="true" duration-ms="13495" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionUsingUtterance()[pri:0, instance:testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2de8284b]" name="ViewTransactionUsingUtterance" duration-ms="52045" started-at="2020-05-08T09:32:02 IST" finished-at="2020-05-08T09:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionUsingUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2de8284b]" name="afterMethod" is-config="true" duration-ms="2225" started-at="2020-05-08T09:32:54 IST" finished-at="2020-05-08T09:32:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC03ViewTransactionUsingUtterance -->
+      <class name="testcases.viewtransaction.TC05ViewTransactionAccountName">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="beforeMethod" is-config="true" duration-ms="13259" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionAccountName()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="ViewTransactionAccountName" duration-ms="62062" started-at="2020-05-08T09:32:02 IST" finished-at="2020-05-08T09:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountName -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="beforeMethod" is-config="true" duration-ms="8729" started-at="2020-05-08T09:32:54 IST" finished-at="2020-05-08T09:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="beforeMethod" is-config="true" duration-ms="9842" started-at="2020-05-08T09:32:54 IST" finished-at="2020-05-08T09:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="ViewTransactionAxcessPlus()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="ViewTransactionAxcessPlus" duration-ms="21972" started-at="2020-05-08T09:33:02 IST" finished-at="2020-05-08T09:33:24 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VIKRAM-VASU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VIKRAM-VASU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:776)
+at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:805)
+at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus(TC05ViewTransactionAccountName.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAxcessPlus -->
+        <test-method status="FAIL" signature="ViewTransactionSupervalue()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="ViewTransactionSupervalue" duration-ms="20652" started-at="2020-05-08T09:33:04 IST" finished-at="2020-05-08T09:33:24 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VIKRAM-VASU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+*** Element info: {Using=xpath, value=//div[@class='slds-spinner slds-spinner--small slds-spinner--brand']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VIKRAM-VASU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.138, webStorageEnabled: true}
+Session ID: 2b5e078917df5b79a0c252b0cce4a239
+*** Element info: {Using=xpath, value=//div[@class='slds-spinner slds-spinner--small slds-spinner--brand']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+at wrappers.GenericWrappers.isAsyncLoading(GenericWrappers.java:803)
+at wrappers.GenericWrappers.waitForLoad(GenericWrappers.java:313)
+at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:339)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:761)
+at pages.ViewTransactionPage.ClickSplashLogo(ViewTransactionPage.java:41)
+at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue(TC05ViewTransactionAccountName.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionSupervalue -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="afterMethod" is-config="true" duration-ms="20161" started-at="2020-05-08T09:33:04 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC05ViewTransactionAccountName@a74868d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC05ViewTransactionAccountName -->
+      <class name="testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount@42607a4f]" name="beforeMethod" is-config="true" duration-ms="8229" started-at="2020-05-08T09:33:51 IST" finished-at="2020-05-08T09:34:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount@42607a4f]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:51 IST" finished-at="2020-05-08T09:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionCorrectAccountTypeUserDonotHaveAccount()[pri:0, instance:testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount@42607a4f]" name="ViewTransactionCorrectAccountTypeUserDonotHaveAccount" duration-ms="45808" started-at="2020-05-08T09:34:00 IST" finished-at="2020-05-08T09:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCorrectAccountTypeUserDonotHaveAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount@42607a4f]" name="afterMethod" is-config="true" duration-ms="933" started-at="2020-05-08T09:34:45 IST" finished-at="2020-05-08T09:34:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC11ViewTransactionCorrectAccountTypeUserDonotHaveAccount -->
+      <class name="testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@64485a47]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:34:27 IST" finished-at="2020-05-08T09:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@64485a47]" name="beforeMethod" is-config="true" duration-ms="9081" started-at="2020-05-08T09:34:27 IST" finished-at="2020-05-08T09:34:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithWrongAccountnumber()[pri:0, instance:testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@64485a47]" name="ViewTransactionAccountTypeEndingwithWrongAccountnumber" duration-ms="65175" started-at="2020-05-08T09:34:36 IST" finished-at="2020-05-08T09:35:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithWrongAccountnumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@64485a47]" name="afterMethod" is-config="true" duration-ms="840" started-at="2020-05-08T09:35:41 IST" finished-at="2020-05-08T09:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber -->
+      <class name="testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@6ec8211c]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:34:46 IST" finished-at="2020-05-08T09:34:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="8615" started-at="2020-05-08T09:34:46 IST" finished-at="2020-05-08T09:34:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithCorrectAccountNumber()[pri:0, instance:testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@6ec8211c]" name="ViewTransactionAccountTypeEndingwithCorrectAccountNumber" duration-ms="43403" started-at="2020-05-08T09:34:55 IST" finished-at="2020-05-08T09:35:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithCorrectAccountNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@6ec8211c]" name="afterMethod" is-config="true" duration-ms="926" started-at="2020-05-08T09:35:38 IST" finished-at="2020-05-08T09:35:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith -->
+      <class name="testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@544a2ea6]" name="beforeMethod" is-config="true" duration-ms="8446" started-at="2020-05-08T09:35:19 IST" finished-at="2020-05-08T09:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@544a2ea6]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:35:19 IST" finished-at="2020-05-08T09:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithCorrectCardNumber()[pri:0, instance:testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@544a2ea6]" name="ViewTransactionAccountTypeEndingwithCorrectCardNumber" duration-ms="46870" started-at="2020-05-08T09:35:28 IST" finished-at="2020-05-08T09:36:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithCorrectCardNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@544a2ea6]" name="afterMethod" is-config="true" duration-ms="1078" started-at="2020-05-08T09:36:15 IST" finished-at="2020-05-08T09:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith -->
+      <class name="testcases.viewtransaction.TC08ViewTransactionCorrectCardType">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC08ViewTransactionCorrectCardType@365185bd]" name="beforeMethod" is-config="true" duration-ms="8694" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC08ViewTransactionCorrectCardType@365185bd]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionCorrectCardType()[pri:0, instance:testcases.viewtransaction.TC08ViewTransactionCorrectCardType@365185bd]" name="ViewTransactionCorrectCardType" duration-ms="43765" started-at="2020-05-08T09:33:33 IST" finished-at="2020-05-08T09:34:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCorrectCardType -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC08ViewTransactionCorrectCardType@365185bd]" name="afterMethod" is-config="true" duration-ms="753" started-at="2020-05-08T09:34:17 IST" finished-at="2020-05-08T09:34:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC08ViewTransactionCorrectCardType -->
+      <class name="testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@782663d3]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:34:07 IST" finished-at="2020-05-08T09:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@782663d3]" name="beforeMethod" is-config="true" duration-ms="9395" started-at="2020-05-08T09:34:07 IST" finished-at="2020-05-08T09:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@782663d3]" name="ViewTransactionCASAaccountUtterance" duration-ms="62699" started-at="2020-05-08T09:34:16 IST" finished-at="2020-05-08T09:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@782663d3]" name="afterMethod" is-config="true" duration-ms="633" started-at="2020-05-08T09:35:19 IST" finished-at="2020-05-08T09:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance -->
+      <class name="testcases.viewtransaction.TC30ViewTransactionUI">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC30ViewTransactionUI@eb21112]" name="beforeMethod" is-config="true" duration-ms="10820" started-at="2020-05-08T09:37:11 IST" finished-at="2020-05-08T09:37:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC30ViewTransactionUI@eb21112]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:37:11 IST" finished-at="2020-05-08T09:37:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionAccountTypeEndingwithWrongAccountnumber()[pri:0, instance:testcases.viewtransaction.TC30ViewTransactionUI@eb21112]" name="ViewTransactionAccountTypeEndingwithWrongAccountnumber" duration-ms="47941" started-at="2020-05-08T09:37:22 IST" finished-at="2020-05-08T09:38:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionAccountTypeEndingwithWrongAccountnumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC30ViewTransactionUI@eb21112]" name="afterMethod" is-config="true" duration-ms="789" started-at="2020-05-08T09:38:10 IST" finished-at="2020-05-08T09:38:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC30ViewTransactionUI -->
+      <class name="testcases.viewtransaction.TC02ViewTransactionWithoutLogin">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC02ViewTransactionWithoutLogin@78ac1102]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC02ViewTransactionWithoutLogin@78ac1102]" name="beforeMethod" is-config="true" duration-ms="13451" started-at="2020-05-08T09:31:49 IST" finished-at="2020-05-08T09:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionWithoutLogin()[pri:0, instance:testcases.viewtransaction.TC02ViewTransactionWithoutLogin@78ac1102]" name="ViewTransactionWithoutLogin" duration-ms="47439" started-at="2020-05-08T09:32:02 IST" finished-at="2020-05-08T09:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionWithoutLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC02ViewTransactionWithoutLogin@78ac1102]" name="afterMethod" is-config="true" duration-ms="3881" started-at="2020-05-08T09:32:50 IST" finished-at="2020-05-08T09:32:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC02ViewTransactionWithoutLogin -->
+      <class name="testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@4fb64261]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@4fb64261]" name="beforeMethod" is-config="true" duration-ms="8740" started-at="2020-05-08T09:33:24 IST" finished-at="2020-05-08T09:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCorrectCASAaccountType()[pri:0, instance:testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@4fb64261]" name="ViewTransactionCorrectCASAaccountType" duration-ms="52497" started-at="2020-05-08T09:33:33 IST" finished-at="2020-05-08T09:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCorrectCASAaccountType -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@4fb64261]" name="afterMethod" is-config="true" duration-ms="1901" started-at="2020-05-08T09:34:26 IST" finished-at="2020-05-08T09:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType -->
+      <class name="testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount@10dba097]" name="beforeMethod" is-config="true" duration-ms="9038" started-at="2020-05-08T09:36:21 IST" finished-at="2020-05-08T09:36:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount@10dba097]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:36:21 IST" finished-at="2020-05-08T09:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount@10dba097]" name="ViewTransactionCASAaccountUtterance" duration-ms="49322" started-at="2020-05-08T09:36:30 IST" finished-at="2020-05-08T09:37:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount@10dba097]" name="afterMethod" is-config="true" duration-ms="2620" started-at="2020-05-08T09:37:19 IST" finished-at="2020-05-08T09:37:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC24ViewTransactionUserDonotHaveAccount -->
+      <class name="testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@12c8a2c0]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:32:57 IST" finished-at="2020-05-08T09:32:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@12c8a2c0]" name="beforeMethod" is-config="true" duration-ms="7626" started-at="2020-05-08T09:32:57 IST" finished-at="2020-05-08T09:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCorrectAccountNameBalanceCheck()[pri:0, instance:testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@12c8a2c0]" name="ViewTransactionCorrectAccountNameBalanceCheck" duration-ms="45477" started-at="2020-05-08T09:33:04 IST" finished-at="2020-05-08T09:33:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCorrectAccountNameBalanceCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@12c8a2c0]" name="afterMethod" is-config="true" duration-ms="1739" started-at="2020-05-08T09:33:50 IST" finished-at="2020-05-08T09:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck -->
+      <class name="testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard@704d6e83]" name="setData" is-config="true" duration-ms="0" started-at="2020-05-08T09:36:54 IST" finished-at="2020-05-08T09:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard@704d6e83]" name="beforeMethod" is-config="true" duration-ms="10088" started-at="2020-05-08T09:36:54 IST" finished-at="2020-05-08T09:37:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ViewTransactionCASAaccountUtterance()[pri:0, instance:testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard@704d6e83]" name="ViewTransactionCASAaccountUtterance" duration-ms="43968" started-at="2020-05-08T09:37:04 IST" finished-at="2020-05-08T09:37:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTransactionCASAaccountUtterance -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard@704d6e83]" name="afterMethod" is-config="true" duration-ms="661" started-at="2020-05-08T09:37:48 IST" finished-at="2020-05-08T09:37:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.viewtransaction.TC26ViewTransactionUserBlockedCreditCard -->
+    </test> <!-- Vaira -->
+  </suite> <!-- ConBank View Transaction -->
+</testng-results>

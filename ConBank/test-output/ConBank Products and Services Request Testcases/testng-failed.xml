@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Products and Services Request Testcases]">
+  <test thread-count="5" name="Vaira(failed)" parallel="methods">
+    <classes>
+      <class name="testcases.productandservices.TC18PSApplyNowCreditcardsSubMenuCheck">
+        <methods>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC18PSApplyNowCreditcardsSubMenuCheck -->
+      <class name="testcases.productandservices.TC49PSDBApplyNowEnrollattheBranchInstruction">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="EnrollattheBranchInstruction"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC49PSDBApplyNowEnrollattheBranchInstruction -->
+      <class name="testcases.productandservices.TC45PSDBApplyNowEnrollattheBranchInstruction">
+        <methods>
+          <include name="EnrollattheBranchInstruction"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC45PSDBApplyNowEnrollattheBranchInstruction -->
+      <class name="testcases.productandservices.TC26PSRemittanceHowtoSendMoneyNavigation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="HowtoSendMoney"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC26PSRemittanceHowtoSendMoneyNavigation -->
+      <class name="testcases.productandservices.TC48PSDBApplyNowEnrollUsingACardInstruction">
+        <methods>
+          <include name="ApplyNowEnrollUsingACardInstruction"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC48PSDBApplyNowEnrollUsingACardInstruction -->
+      <class name="testcases.productandservices.TC40PSCustomerCareApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="CustomerCareApplyNow"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC40PSCustomerCareApplyNow -->
+      <class name="testcases.productandservices.TC46PSAccountApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="PSAcccountApplyNow"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC46PSAccountApplyNow -->
+      <class name="testcases.productandservices.TC44PSDBApplyNowEnrollUsingACardInstruction">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="EnrollUsingACardInstruction"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC44PSDBApplyNowEnrollUsingACardInstruction -->
+      <class name="testcases.productandservices.TC42PSLoan_ApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ApplyNow"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC42PSLoan_ApplyNow -->
+      <class name="testcases.productandservices.TC36PSInvestmentApplyNowInsruction">
+        <methods>
+          <include name="InvestmentsApplyNowInstruction"/>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC36PSInvestmentApplyNowInsruction -->
+    </classes>
+  </test> <!-- Vaira(failed) -->
+</suite> <!-- Failed suite [ConBank Products and Services Request Testcases] -->

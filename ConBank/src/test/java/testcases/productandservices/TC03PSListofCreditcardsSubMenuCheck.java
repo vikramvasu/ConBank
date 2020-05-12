@@ -1,0 +1,41 @@
+package testcases.productandservices;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import pages.ProductsAndServicesPage;
+
+
+
+public class TC03PSListofCreditcardsSubMenuCheck extends wrappers.ProjectWrappers{
+
+	public TC03PSListofCreditcardsSubMenuCheck() throws IOException {
+		super();
+		
+		// TODO Auto-generated constructor stub
+	}
+
+	@BeforeClass
+	public void setData() {
+		TestCaseName="TC03 - To Verify if user enter or tap on Credit cards - Sub menu  ";
+		TestDescription="Product and Services";
+		browserName="chrome";
+		Application="Product and Services";
+		Authors="Vairamuthu";
+	}
+	
+
+	@Test
+	public void ListofCreditcardSubMenuCheck() throws Exception
+	{
+		new ProductsAndServicesPage(driver, test)
+		.ClickSplashLogo()
+		.EnterTextArea("Product and Services")
+		.VerifyMainmenu("Credit Cards")
+		.VerifySubmenu("Choose a Credit Card")
+		.VerifySubmenu("Promos")
+		.VerifySubmenu("Apply Now");			
+	}	
+}

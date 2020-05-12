@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Test Suite for All modules]">
+  <test thread-count="5" name="Vikram(failed)">
+    <classes>
+      <class name="testcases.productandservices.TC08PSListofCustomerCareSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ListofCustomerCareSubMenuCheck"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC08PSListofCustomerCareSubMenuCheck -->
+      <class name="testcases.productandservices.TC27PSRemittanceReceiveMoneyNavigation">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ReceiveMoneyNavigation"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC27PSRemittanceReceiveMoneyNavigation -->
+      <class name="testcases.recharge.TC42VerifyUserAbleToRechargeUsingAccountNumberEndingSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="AccountNumberEndingIntentTwo"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC42VerifyUserAbleToRechargeUsingAccountNumberEndingSupportedIntents -->
+      <class name="testcases.statementrequest.TC13VerifyWrongMonthSelectedResponseFromBot">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="BotResponseForWrongMonth"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC13VerifyWrongMonthSelectedResponseFromBot -->
+      <class name="testcases.chequebookrequest.TC27ChequeBookRequestbyIncorrectAccountnumberending">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC27ChequeBookRequestbyIncorrectAccountnumberending -->
+      <class name="testcases.managecards.TC40ManageCardsUnblockSuccessMessage">
+        <methods>
+          <include name="ManageCardsUnblockSuccessMessage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC40ManageCardsUnblockSuccessMessage -->
+      <class name="testcases.statementrequest.TC27VerifyNoAccountAvailableResponseForUsersNotHavingCheckingAccount">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyNoAccountAvailableForNoCheckingAccountUser"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC27VerifyNoAccountAvailableResponseForUsersNotHavingCheckingAccount -->
+      <class name="testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ManageCardsIsthereanythingelseCheckinBlockCancellationMessage"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage -->
+      <class name="testcases.productandservices.TC47PSCreditcardsPromos">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC47PSCreditcardsPromos -->
+      <class name="testcases.managecards.TC50ManageCardsUnblockCreditCard">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ManageCardsUnblockCreditCard"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC50ManageCardsUnblockCreditCard -->
+      <class name="testcases.chequebookrequest.TC16ChequeBookRequestbyWrongAccountName">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ChequeBookRequestTextAfterLogin"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC16ChequeBookRequestbyWrongAccountName -->
+      <class name="testcases.statementrequest.TC19StatementRequestForCheckingAccounttType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="StatementRequestIntentOneForCheckingAccountType"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="StatementRequestIntentTwoForCheckingAccountType"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC19StatementRequestForCheckingAccounttType -->
+      <class name="testcases.chequebookrequest.TC25ChequeBookRequestbyAccountNumberwhichisnotlinkedtotheAccounttype">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC25ChequeBookRequestbyAccountNumberwhichisnotlinkedtotheAccounttype -->
+      <class name="testcases.productandservices.TC45PSDBApplyNowEnrollattheBranchInstruction">
+        <methods>
+          <include name="EnrollattheBranchInstruction"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC45PSDBApplyNowEnrollattheBranchInstruction -->
+      <class name="testcases.productandservices.TC15PSHowtoOpenStepsVerification">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PSHowtoOpenStepsVerification"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC15PSHowtoOpenStepsVerification -->
+      <class name="testcases.statementrequest.TC30StatementRequestForCorrectAccountTypeWithAccountNumberEnding">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForCorrectAccountTypeAndAccountNumberEnding"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC30StatementRequestForCorrectAccountTypeWithAccountNumberEnding -->
+      <class name="testcases.productandservices.TC01PSListofSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ListofSubMenuCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC01PSListofSubMenuCheck -->
+      <class name="testcases.productandservices.TC41PSCustomerCareLiveChat">
+        <methods>
+          <include name="CustomerCareLiveChat"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC41PSCustomerCareLiveChat -->
+      <class name="testcases.productandservices.TC13PSListofTimeDepositDetailsCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="PSListofTimeDepositsDetailsCheck"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC13PSListofTimeDepositDetailsCheck -->
+      <class name="testcases.chequebookrequest.TC26ChequeBookRequestbyAccountNumberwhichislinkedtoOtherAccounttype">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC26ChequeBookRequestbyAccountNumberwhichislinkedtoOtherAccounttype -->
+      <class name="testcases.productandservices.TC26PSRemittanceHowtoSendMoneyNavigation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="HowtoSendMoney"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC26PSRemittanceHowtoSendMoneyNavigation -->
+      <class name="testcases.statementrequest.TC26VerifyNoAccountAvailableResponseForUsersNotHavingSavingsAccount">
+        <methods>
+          <include name="VerifyNoAccountAvailableForNoSavingsAccountUser"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC26VerifyNoAccountAvailableResponseForUsersNotHavingSavingsAccount -->
+      <class name="testcases.productandservices.TC11PSListofSavingsAccountDetailsCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="TC11PSListofSavingsAccountDetailsCheck"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC11PSListofSavingsAccountDetailsCheck -->
+      <class name="testcases.productandservices.TC09PSListofBranchATMLocationSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="ListofCustomerCareSubMenuCheck"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC09PSListofBranchATMLocationSubMenuCheck -->
+      <class name="testcases.productandservices.TC07PSListofInvestmentsSubMenuCheck">
+        <methods>
+          <include name="ListofInvestmentsSubMenuCheck"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC07PSListofInvestmentsSubMenuCheck -->
+      <class name="testcases.productandservices.TC39PSCustomerCareBankHotline">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="CustomerCareBankHotline"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC39PSCustomerCareBankHotline -->
+      <class name="testcases.statementrequest.TC49StatementRequestByMonthSupportedIntentUtterance">
+        <methods>
+          <include name="StatementRequestIntentOneByMonth"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="StatementRequestIntentTwoByMonth"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestIntentThreeByMonth"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC49StatementRequestByMonthSupportedIntentUtterance -->
+      <class name="testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ManageCardsUnblockCreditCard"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard -->
+      <class name="testcases.recharge.TC55VerifyIfUserEnterSpecialCharsOrAphabetsAsAmount">
+        <methods>
+          <include name="enterAlphabetsAsAmounToRecharge"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="enterSplCharsAsAmounToRecharge"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC55VerifyIfUserEnterSpecialCharsOrAphabetsAsAmount -->
+      <class name="testcases.productandservices.TC28PSRemittanceTrackerDetailsNavigation">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="RemittanceTrackerDetailsNavigation"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC28PSRemittanceTrackerDetailsNavigation -->
+      <class name="testcases.productandservices.TC23PSLoan_HomeLoanForOFWs">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="HomeLoanForOFWs"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC23PSLoan_HomeLoanForOFWs -->
+      <class name="testcases.productandservices.TC03PSListofCreditcardsSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC03PSListofCreditcardsSubMenuCheck -->
+      <class name="testcases.recharge.TC31VerifyUserAbleToRechargeUsingAccountNameSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="AccountNameIntentFiveForRecharge"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC31VerifyUserAbleToRechargeUsingAccountNameSupportedIntents -->
+      <class name="testcases.productandservices.TC20PSDBEnrollUsingACardInstruction">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="EnrollUsingACardInstruction"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC20PSDBEnrollUsingACardInstruction -->
+      <class name="testcases.statementrequest.TC31StatementRequestForCorrectAccountTypeWithInvalidAccountNumberEnding">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestForCorrectAccountTypeAndInvalidAccountNumberEnding"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC31StatementRequestForCorrectAccountTypeWithInvalidAccountNumberEnding -->
+      <class name="testcases.statementrequest.TC35StatementRequestByAccountNumberEndingSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="StatementRequestIntentOneForAccountNumberEnding"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestIntentTwoForAccountNumberEnding"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestIntentThreeForAccountNumberEnding"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC35StatementRequestByAccountNumberEndingSupportedIntents -->
+      <class name="testcases.statementrequest.TC18StatementRequestForSavingAccountType">
+        <methods>
+          <include name="StatementRequestIntentTwoForSavingAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="StatementRequestIntentThreeForSavingAccountType"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestIntentOneForSavingAccountType"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC18StatementRequestForSavingAccountType -->
+      <class name="testcases.managecards.TC37ManageCardsUnblockCardSelection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="ManageCardsUnblockCardSelection"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC37ManageCardsUnblockCardSelection -->
+      <class name="testcases.statementrequest.TC37StatementRequestResponseForInvalidAccountNumberEnding">
+        <methods>
+          <include name="StatementRequestForInvalidAccountNumberEnding"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC37StatementRequestResponseForInvalidAccountNumberEnding -->
+      <class name="testcases.statementrequest.TC40StatementRequestForCardNumberEndingSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForCardNumberEndingIntentOne"/>
+          <include name="setData"/>
+          <include name="StatementRequestIntentTwoForAccountName"/>
+          <include name="beforeMethod"/>
+          <include name="StatementRequestIntentThreeForAccountName"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC40StatementRequestForCardNumberEndingSupportedIntents -->
+      <class name="testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ManageCardsUnblockCancellationMessage"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage -->
+      <class name="testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage">
+        <methods>
+          <include name="ManageCardsUnblockCancellationMessage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage -->
+      <class name="testcases.productandservices.TC14PSListofForeignCurrencyDetailsCheck">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PSListofTimeDepositsDetailsCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC14PSListofForeignCurrencyDetailsCheck -->
+      <class name="testcases.chequebookrequest.TC23ChequeBookRequestbyIncorrectAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC23ChequeBookRequestbyIncorrectAccountNumberEndingWith -->
+      <class name="testcases.productandservices.TC10PSListofChooseAnAccountSubMenuCheck">
+        <methods>
+          <include name="TC10PSListofChooseAnAccountSubMenuCheck"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC10PSListofChooseAnAccountSubMenuCheck -->
+      <class name="testcases.statementrequest.TC25ViewListOfCreditCardAccountsForCreditAccountTypeIntents">
+        <methods>
+          <include name="StatementRequestIntentOneForCreditAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestIntentTwoForCreditAccountType"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC25ViewListOfCreditCardAccountsForCreditAccountTypeIntents -->
+      <class name="testcases.statementrequest.TC53ValidationResponseForWrongMonth">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ResponseForWrongMonth"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC53ValidationResponseForWrongMonth -->
+      <class name="testcases.statementrequest.TC34ResponseOfStatementRequestForAccountTypeAndAccountNumberGivenTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForAccountTypeAndAccountNumberGivenTwice"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC34ResponseOfStatementRequestForAccountTypeAndAccountNumberGivenTwice -->
+      <class name="testcases.chequebookrequest.TC17ChequeBookRequestbyAccountNameUserDontHave">
+        <methods>
+          <include name="ChequeBookRequestTextAfterLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC17ChequeBookRequestbyAccountNameUserDontHave -->
+      <class name="testcases.productandservices.TC49PSDBApplyNowEnrollattheBranchInstruction">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="EnrollattheBranchInstruction"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC49PSDBApplyNowEnrollattheBranchInstruction -->
+      <class name="testcases.productandservices.TC22PSDigitalBankingOTP">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="DigitalBankingOTP"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC22PSDigitalBankingOTP -->
+      <class name="testcases.recharge.TC54VerifyIfUserEnterInvalidAmount_NegativeBalOrZERO">
+        <methods>
+          <include name="enterZeroAmounToRecharge"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="enterNegativeAmounToRecharge"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC54VerifyIfUserEnterInvalidAmount_NegativeBalOrZERO -->
+      <class name="testcases.statementrequest.TC29StatementRequestForAccountTypeWithAccountNumberSupportedIntent">
+        <methods>
+          <include name="StatementRequestIntentThreeForAccountTypeWithAccountNumberEnding"/>
+          <include name="StatementRequestIntentTwoForAccountTypeWithAccountNumberEnding"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="StatementRequestIntentFourForAccountTypeWithAccountNumberEnding"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestIntentOneForAccountTypeWithAccountNumberEnding"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC29StatementRequestForAccountTypeWithAccountNumberSupportedIntent -->
+      <class name="testcases.chequebookrequest.TC28ChequeBookRequestbyAccountTypeendingwithwhichisnotavailable">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC28ChequeBookRequestbyAccountTypeendingwithwhichisnotavailable -->
+      <class name="testcases.recharge.TC39VerifyUserAbleToViewValidationMessageForWrongCardTypeEnteredTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="wrongCardTypeEnteredTwice"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC39VerifyUserAbleToViewValidationMessageForWrongCardTypeEnteredTwice -->
+      <class name="testcases.statementrequest.TC02SRIconCheckAfterLogin">
+        <methods>
+          <include name="StatementRequestIconCheckAfterLogin"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC02SRIconCheckAfterLogin -->
+      <class name="testcases.statementrequest.TC39ResponseOfStatementRequestForAccountNumberGivenTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForAccountNumberGivenTwice"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC39ResponseOfStatementRequestForAccountNumberGivenTwice -->
+      <class name="testcases.recharge.TC51ValidateIfUserSelectsNoForConfirmOperator">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="selectNOForConfirmOperator"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC51ValidateIfUserSelectsNoForConfirmOperator -->
+      <class name="testcases.statementrequest.TC33StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC33StatementRequestOfAccountTypeAndAccountNumberForUserNotHavingAccountType -->
+      <class name="testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ManageCardsUnblockSuccessMessage"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection -->
+      <class name="testcases.statementrequest.TC23ViewListOfSavingsAccountForSavingsAccountTypeIntents">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ViewSavingsAccountForSavingAccountTypeIntentTwo"/>
+          <include name="beforeSuite"/>
+          <include name="ViewSavingsAccountForSavingAccountTypeIntentOne"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC23ViewListOfSavingsAccountForSavingsAccountTypeIntents -->
+      <class name="testcases.recharge.TC46VerifyIfUserEntersWrongMobileNumberMoreThan10Digits">
+        <methods>
+          <include name="moreThan10DigitsForMobile"/>
+          <include name="someRandomNumberForMobile"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC46VerifyIfUserEntersWrongMobileNumberMoreThan10Digits -->
+      <class name="testcases.productandservices.TC19PSDBHowtoEnrollSubMenuCheck">
+        <methods>
+          <include name="HowtoEnrollSubMenuCheck"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC19PSDBHowtoEnrollSubMenuCheck -->
+      <class name="testcases.statementrequest.TC12VerifyTwoInvalidAttemptsResponseForWrongAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="BotResponseFor2InvalidWrongAccount"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC12VerifyTwoInvalidAttemptsResponseForWrongAccount -->
+      <class name="testcases.chequebookrequest.TC13ChequeBookRequestCancellationMessageCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestCancellationMessageCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC13ChequeBookRequestCancellationMessageCheck -->
+      <class name="testcases.managecards.TC39ManageCardsUnblockConfirmationMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ManageCardsUnblockConfirmationMessage"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC39ManageCardsUnblockConfirmationMessage -->
+      <class name="testcases.productandservices.TC40PSCustomerCareApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="CustomerCareApplyNow"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC40PSCustomerCareApplyNow -->
+      <class name="testcases.recharge.TC53ValidateIfUserSelectsOtherOperator">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="selectOtherOperator"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC53ValidateIfUserSelectsOtherOperator -->
+      <class name="testcases.recharge.TC03VerifyRechargeIconClickAfterLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="RechargeIconCheckAfterLogin"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC03VerifyRechargeIconClickAfterLogin -->
+      <class name="testcases.statementrequest.TC16VerifyNoAccountAvailableResponseForAccountSelection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="VerifyNoAccountAvailableForAccountSelectionTwo"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyNoAccountAvailableForAccountSelectionOne"/>
+          <include name="VerifyNoAccountAvailableForAccountSelectionThree"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC16VerifyNoAccountAvailableResponseForAccountSelection -->
+      <class name="testcases.productandservices.TC21PSDBEnrollattheBranchInstruction">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="EnrollattheBranchInstruction"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC21PSDBEnrollattheBranchInstruction -->
+      <class name="testcases.productandservices.TC16PSListofValidIDsCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PSListofValidIDsCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC16PSListofValidIDsCheck -->
+      <class name="testcases.productandservices.TC06PSListofRemittanceSubMenuCheck">
+        <methods>
+          <include name="ListofRemittanceSubMenuCheck"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC06PSListofRemittanceSubMenuCheck -->
+      <class name="testcases.statementrequest.TC06StatementRequestSelectTheListOfAccounts">
+        <methods>
+          <include name="StatementRequestSelectUltimateCardAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestSelectRegularCurrentAccount"/>
+          <include name="StatementRequestSelectSuperValueAccount"/>
+          <include name="StatementRequestSelectaXcessPlusAccount"/>
+          <include name="beforeMethod"/>
+          <include name="StatementRequestSelectPlatinumRewardAccount"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC06StatementRequestSelectTheListOfAccounts -->
+      <class name="testcases.statementrequest.TC42StatementRequestDownloadForIncorrectCardNumberEnding">
+        <methods>
+          <include name="StatementRequestForIncorrectCardNumberEndingOne"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForIncorrectCardNumberEndingTwo"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC42StatementRequestDownloadForIncorrectCardNumberEnding -->
+      <class name="testcases.statementrequest.TC15VerifyAnythingElseStatementInDownloadResponse">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="VerifyAnythingElseStatementInDownloadResponseForaXcessPlusAccount"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyAnythingElseStatementInDownloadResponseForRegularCurrentAccount"/>
+          <include name="VerifyAnythingElseStatementInDownloadResponseForPlatinumRewardsAccount"/>
+          <include name="VerifyAnythingElseStatementInDownloadResponseForSuperValueAccount"/>
+          <include name="VerifyAnythingElseStatementInDownloadResponseForUltimateAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC15VerifyAnythingElseStatementInDownloadResponse -->
+      <class name="testcases.productandservices.TC48PSDBApplyNowEnrollUsingACardInstruction">
+        <methods>
+          <include name="ApplyNowEnrollUsingACardInstruction"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC48PSDBApplyNowEnrollUsingACardInstruction -->
+      <class name="testcases.productandservices.TC32PSInvestmentChooseaFund">
+        <methods>
+          <include name="InvestmentsChooseAfund"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC32PSInvestmentChooseaFund -->
+      <class name="testcases.chequebookrequest.TC22ChequeBookRequestbyWrongAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC22ChequeBookRequestbyWrongAccountNumberEndingWith -->
+      <class name="testcases.chequebookrequest.TC24ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith">
+        <methods>
+          <include name="ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC24ChequeBookRequestbyCorrectAccountTypeAccountNumberEndingWith -->
+      <class name="testcases.chequebookrequest.TC30ChequeBookRequestWrongInputTwiceWhileSelectingAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestWrongInputTwiceWhileSelectingAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC30ChequeBookRequestWrongInputTwiceWhileSelectingAccount -->
+      <class name="testcases.recharge.TC05VerifyRechargeModuleUsingRechargeSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="RechargeIntentNineCheckAfterLogin"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="RechargeIntentOneCheckAfterLogin"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC05VerifyRechargeModuleUsingRechargeSupportedIntents -->
+      <class name="testcases.productandservices.TC05PSListofLoanSubMenuCheck2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ListofLoanSubMenuCheck"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC05PSListofLoanSubMenuCheck2 -->
+      <class name="testcases.chequebookrequest.TC03ChequeBookRequestIconClickAfterLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestIconClickAfterLogin"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC03ChequeBookRequestIconClickAfterLogin -->
+      <class name="testcases.recharge.TC18VerifyUserAbleToEnterWrongInputForTheMobileOperator">
+        <methods>
+          <include name="wrongOperatorInputForRecharge"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC18VerifyUserAbleToEnterWrongInputForTheMobileOperator -->
+      <class name="testcases.statementrequest.TC28VerifyNoAccountAvailableResponseForUsersNotHavingCurrentAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="VerifyNoAccountAvailableForNoCurrentAccountUser"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC28VerifyNoAccountAvailableResponseForUsersNotHavingCurrentAccount -->
+      <class name="testcases.recharge.TC06VerifyUserAbleToSelectAccountFromListOfAccountsDisplayed">
+        <methods>
+          <include name="SelectPlatinumRewardsForRecharge"/>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC06VerifyUserAbleToSelectAccountFromListOfAccountsDisplayed -->
+      <class name="testcases.statementrequest.TC43StatementRequestDownloadForCardNumberNotAvailable">
+        <methods>
+          <include name="StatementRequestForCardNumberEndingNotAvailableTwo"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForCardNumberEndingNotAvailableOne"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC43StatementRequestDownloadForCardNumberNotAvailable -->
+      <class name="testcases.statementrequest.TC11VerifyWrongAccountSelectedResponseFromBot">
+        <methods>
+          <include name="BotResponseForWrongAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC11VerifyWrongAccountSelectedResponseFromBot -->
+      <class name="testcases.productandservices.TC02PSListofAccountsSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ListofAccountSubMenuCheck"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC02PSListofAccountsSubMenuCheck -->
+      <class name="testcases.recharge.TC50ValidateIfUserSelectsYesForConfirmOperator">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="selectYESForConfirmOperator"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC50ValidateIfUserSelectsYesForConfirmOperator -->
+      <class name="testcases.productandservices.TC25PSLoan_SmartCarLoanNavigation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="SmarCarLoan"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC25PSLoan_SmartCarLoanNavigation -->
+      <class name="testcases.statementrequest.TC10DownloadStatementForTheSelectedMonth">
+        <methods>
+          <include name="downloadStatementForSuperValueAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="downloadStatementForPlatinumRewardsAccount"/>
+          <include name="downloadStatementForUltimateCardAccount"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="downloadStatementForRegularCurrentAccount"/>
+          <include name="setData"/>
+          <include name="downloadStatementForXcessPlusAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC10DownloadStatementForTheSelectedMonth -->
+      <class name="testcases.productandservices.TC46PSAccountApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="PSAcccountApplyNow"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC46PSAccountApplyNow -->
+      <class name="testcases.statementrequest.TC04StatementRequestSupportedIntents">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="StatementRequestVerifyIntentFour"/>
+          <include name="StatementRequestVerifyIntentSix"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestVerifyIntentTwo"/>
+          <include name="StatementRequestVerifyIntentThree"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="StatementRequestVerifyIntentOne"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestVerifyIntentFive"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC04StatementRequestSupportedIntents -->
+      <class name="testcases.productandservices.TC43PSDigialBankingDownloadtheApp">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="DBDownloadTheApp"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC43PSDigialBankingDownloadtheApp -->
+      <class name="testcases.recharge.TC56VerifyIfUserEntersBiggerAmountThanTheAvailableAccountBal">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="enterBiggerAmounToRecharge"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC56VerifyIfUserEntersBiggerAmountThanTheAvailableAccountBal -->
+      <class name="testcases.productandservices.TC30PSBranchATMLocationFindanATM">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="BranchATMLocationFindanATM"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC30PSBranchATMLocationFindanATM -->
+      <class name="testcases.managecards.TC11ManageCardsBlockCancellationMessage">
+        <methods>
+          <include name="ManageCardsBlockCancellationMessage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC11ManageCardsBlockCancellationMessage -->
+      <class name="testcases.managecards.TC41ManageCardsUnblockCancellationMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="ManageCardsUnblockCancellationMessage"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC41ManageCardsUnblockCancellationMessage -->
+      <class name="testcases.statementrequest.TC20VerifyNoAccountAvailableResponseForSavingsAccount">
+        <methods>
+          <include name="VerifyNoAccountAvailableForNoSavingsAccountUser"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC20VerifyNoAccountAvailableResponseForSavingsAccount -->
+      <class name="testcases.statementrequest.TC32StatementRequestForCorrectAccountTypeAndDifferentAccountTypesAccountNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestForCorrectAccountTypeAndDifferentAccountTypesAccountNumber"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC32StatementRequestForCorrectAccountTypeAndDifferentAccountTypesAccountNumber -->
+      <class name="testcases.statementrequest.TC17StatementRequestSupportedIntentsForAccountName">
+        <methods>
+          <include name="StatementRequestIntentTwoForAccountName"/>
+          <include name="StatementRequestIntentThreeForAccountName"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="StatementRequestIntentFourForAccountName"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestIntentOneForAccountName"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC17StatementRequestSupportedIntentsForAccountName -->
+      <class name="testcases.recharge.TC45VerifyUserAbleToViewValidationMessageForWrongAccountNumberEndingEnteredTwice">
+        <methods>
+          <include name="wrongAccountNumberEndingEnteredTwice"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC45VerifyUserAbleToViewValidationMessageForWrongAccountNumberEndingEnteredTwice -->
+      <class name="testcases.recharge.TC36VerifyUserAbleToViewValidationMessageForTwoCosecutiveWrongAccountTypes">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="wrongAccountTypeTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC36VerifyUserAbleToViewValidationMessageForTwoCosecutiveWrongAccountTypes -->
+      <class name="testcases.productandservices.TC37PSInvestmentInvestOnlineNavigation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="InvestmentsInvestOnlineNavigation"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC37PSInvestmentInvestOnlineNavigation -->
+      <class name="testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage">
+        <methods>
+          <include name="ManageCardsUnblockSuccessMessage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage -->
+      <class name="testcases.productandservices.TC18PSApplyNowCreditcardsSubMenuCheck">
+        <methods>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC18PSApplyNowCreditcardsSubMenuCheck -->
+      <class name="testcases.productandservices.TC31PSBranchATMLocationWeekendBanking">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="BranchATMLocationWeekendBankingNavigation"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC31PSBranchATMLocationWeekendBanking -->
+      <class name="testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ManageCardsUnblockSuccessMessage"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection -->
+      <class name="testcases.productandservices.TC36PSInvestmentApplyNowInsruction">
+        <methods>
+          <include name="InvestmentsApplyNowInstruction"/>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC36PSInvestmentApplyNowInsruction -->
+      <class name="testcases.statementrequest.TC38StatementRequestOfAccountNumberWhichIsNotAvailable">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="StatementRequestOfAccountNumberWhichIsNotAvailable"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC38StatementRequestOfAccountNumberWhichIsNotAvailable -->
+      <class name="testcases.statementrequest.TC14Verify2InvalidAttemptsForWrongMonth">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="VerifyResponseFor2InvalidMonth"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC14Verify2InvalidAttemptsForWrongMonth -->
+      <class name="testcases.productandservices.TC33PSInvestmentHowToInvest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="InvestmentsHowtoInvest"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC33PSInvestmentHowToInvest -->
+      <class name="testcases.statementrequest.TC07StatementRequestforOnlyLast6Months">
+        <methods>
+          <include name="SuperValueAccountStatementForLast6Months"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="aXcessPlusAccountStatementForLast6Months"/>
+          <include name="UltimateCardAccountStatementForLast6Months"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="PlatinumRewardsAccountStatementForLast6Months"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="RegularCurrentAccountStatementForLast6Months"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC07StatementRequestforOnlyLast6Months -->
+      <class name="testcases.recharge.TC47VerifyIfUserEntersZEROAsMobileNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ZeroForMobile"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC47VerifyIfUserEntersZEROAsMobileNumber -->
+      <class name="testcases.recharge.TC38VerifyUserAbleToViewValidationMessageForWrongCardType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="wrongCardType"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC38VerifyUserAbleToViewValidationMessageForWrongCardType -->
+      <class name="testcases.statementrequest.TC09ViewTheStatementDownloadResponseForTheMonth">
+        <methods>
+          <include name="viewDownloadTextForPlatinumRewardsAccount"/>
+          <include name="viewDownloadTextForUltimateCardAccount"/>
+          <include name="viewDownloadTextForSuperValueAccount"/>
+          <include name="viewDownloadTextForaXcessPlusAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="viewDownloadTextForRegularCurrentAccount"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC09ViewTheStatementDownloadResponseForTheMonth -->
+      <class name="testcases.statementrequest.TC51ValidationResponseForMonthBefore6Months">
+        <methods>
+          <include name="ResponseForMonthGivenBefore6Months"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC51ValidationResponseForMonthBefore6Months -->
+      <class name="testcases.statementrequest.TC21VerifyNoAccountAvailableResponseForCheckingAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="VerifyNoAccountAvailableForNoCheckingAccountUser"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC21VerifyNoAccountAvailableResponseForCheckingAccount -->
+      <class name="testcases.statementrequest.TC36StatementRequestForCorrectAccountNumberEnding">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestForCorrectAccountNumberEnding"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC36StatementRequestForCorrectAccountNumberEnding -->
+      <class name="testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage">
+        <methods>
+          <include name="ManageCardsUnblockCardsSelectionbyText"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage -->
+      <class name="testcases.statementrequest.TC05StatementRequestDisplaysListOfAllAccounts">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="StatementRequestViewAccountUsingIntentFive"/>
+          <include name="StatementRequestViewAccountUsingIntentTwo"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+          <include name="StatementRequestViewAccountUsingIntentFour"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestViewAccountUsingIntentThree"/>
+          <include name="StatementRequestViewAccountUsingIntentSix"/>
+          <include name="StatementRequestViewAccountUsingIntentOne"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC05StatementRequestDisplaysListOfAllAccounts -->
+      <class name="testcases.recharge.TC44VerifyValidationMessageWhenUserEntersAccountTypeWithWrongAccountNumberEndingTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="AccountTypeWithWrongAccountNumberEnteredTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC44VerifyValidationMessageWhenUserEntersAccountTypeWithWrongAccountNumberEndingTwice -->
+      <class name="testcases.statementrequest.TC50StatementRequestByCorrectMonth">
+        <methods>
+          <include name="StatementRequestByCorrectMonth"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC50StatementRequestByCorrectMonth -->
+      <class name="testcases.statementrequest.TC22StatementRequestSupportedIntentsForAccountType">
+        <methods>
+          <include name="StatementRequestIntentThreeForAccountType"/>
+          <include name="StatementRequestIntentFourForAccountType"/>
+          <include name="StatementRequestIntentTwoForAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="StatementRequestIntentOneForAccountType"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC22StatementRequestSupportedIntentsForAccountType -->
+      <class name="testcases.recharge.TC49ValidateIfUserEnterValidMobileNumber">
+        <methods>
+          <include name="validateValidMobileNumberForRecharge"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC49ValidateIfUserEnterValidMobileNumber -->
+      <class name="testcases.chequebookrequest.TC21ChequeBookRequestbyCorrectAccountNumberEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="ChequeBookRequestbyCorrectAccountNumberEndingWith"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC21ChequeBookRequestbyCorrectAccountNumberEndingWith -->
+      <class name="testcases.productandservices.TC12PSListofCheckingAccountDetailsCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="PSListofCheckingAccountDetailsCheck"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC12PSListofCheckingAccountDetailsCheck -->
+      <class name="testcases.productandservices.TC38PSCustomerCareCardsHotline">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="ListofCustomerCareSubMenuCheck"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC38PSCustomerCareCardsHotline -->
+      <class name="testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText">
+        <methods>
+          <include name="ManageCardsUnblockCardsSelectionbyText"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText -->
+      <class name="testcases.recharge.TC52ValidateIfUserSelectsWrongOperator">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="giveWrongOperator"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC52ValidateIfUserSelectsWrongOperator -->
+      <class name="testcases.productandservices.TC24PSLoan_SmartHomeLoanNavigation">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="SmartHomeLoanNavigation"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC24PSLoan_SmartHomeLoanNavigation -->
+      <class name="testcases.productandservices.TC29PSBranchATMLocationFindBranch">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="BranchATMLocationFindBranch"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC29PSBranchATMLocationFindBranch -->
+      <class name="testcases.recharge.TC48VerifyIfUserEntersSpecialCharsOrCharactersAsMobileNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="charactersForMobile"/>
+          <include name="beforeSuite"/>
+          <include name="specialCharsForMobile"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC48VerifyIfUserEntersSpecialCharsOrCharactersAsMobileNumber -->
+      <class name="testcases.productandservices.TC35PSInvestmentHowToInvestNewCustomerFlow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="HowToInvestNewCustomerFlow"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC35PSInvestmentHowToInvestNewCustomerFlow -->
+      <class name="testcases.productandservices.TC42PSLoan_ApplyNow">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ApplyNow"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC42PSLoan_ApplyNow -->
+      <class name="testcases.chequebookrequest.TC14ChequeBookRequestIsthereanythingelseinCancellationMessageCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="ChequeBookRequestCancellationMessageCheck"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC14ChequeBookRequestIsthereanythingelseinCancellationMessageCheck -->
+      <class name="testcases.productandservices.TC17PSChooseaCreditcardsSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC17PSChooseaCreditcardsSubMenuCheck -->
+      <class name="testcases.statementrequest.TC41StatementRequestDownloadForCorrectCardNumberEnding">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="StatementRequestForCorrectCardNumberEndingOne"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="StatementRequestForCorrectCardNumberEndingTwo"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC41StatementRequestDownloadForCorrectCardNumberEnding -->
+      <class name="testcases.statementrequest.TC08StatementRequestSelectionOfMonthsFromList">
+        <methods>
+          <include name="SelectMonthForUltimateCardAccount"/>
+          <include name="SelectMonthForSuperValueAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="SelectMonthForRegularCurrentAccount"/>
+          <include name="setData"/>
+          <include name="SelectMonthForPlatinumRewardsAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="SelectMonthForaXcessPlusAccount"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC08StatementRequestSelectionOfMonthsFromList -->
+      <class name="testcases.statementrequest.TC44BotResponseForSameCardNumberEndingIntentGivenTwice">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="StatementRequestTwoForCardNumberEndingIntentTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="StatementRequestOneForCardNumberEndingIntentTwice"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC44BotResponseForSameCardNumberEndingIntentGivenTwice -->
+      <class name="testcases.statementrequest.TC54StatementRequestByCorrectMonthTwice">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="ResponseForCorrectMonthTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC54StatementRequestByCorrectMonthTwice -->
+      <class name="testcases.chequebookrequest.TC29ChequeBookRequestWrongInputWhileSelectingAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="ChequeBookRequestWrongInputWhileSelectingAccount"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC29ChequeBookRequestWrongInputWhileSelectingAccount -->
+      <class name="testcases.recharge.TC33VerifyUserAbleToViewValidationMessageForTwoConsecutiveWrongAccountNames">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="wrongAccountNameTwice"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC33VerifyUserAbleToViewValidationMessageForTwoConsecutiveWrongAccountNames -->
+      <class name="testcases.chequebookrequest.TC19ChequeBookRequestbyAccountTypeUserdonthave">
+        <methods>
+          <include name="ChequeBookRequestbyAccountTypeCorrectAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.chequebookrequest.TC19ChequeBookRequestbyAccountTypeUserdonthave -->
+      <class name="testcases.productandservices.TC44PSDBApplyNowEnrollUsingACardInstruction">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="EnrollUsingACardInstruction"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC44PSDBApplyNowEnrollUsingACardInstruction -->
+      <class name="testcases.recharge.TC20VerifyUserAbleToEnterWrongAmountForRecharge">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="enterWrongAmountForRecharge"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC20VerifyUserAbleToEnterWrongAmountForRecharge -->
+      <class name="testcases.productandservices.TC04PSListofDigitalbankingSubMenuCheck">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="ListofCreditcardSubMenuCheck"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC04PSListofDigitalbankingSubMenuCheck -->
+      <class name="testcases.statementrequest.TC24ViewListOfCurrentAccountsForCurrentAccountTypeIntents">
+        <methods>
+          <include name="StatementRequestIntentTwoForCheckingAccountType"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="StatementRequestIntentOneForCheckingAccountType"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.statementrequest.TC24ViewListOfCurrentAccountsForCurrentAccountTypeIntents -->
+      <class name="testcases.recharge.TC34VerifyUserAbleToRechargeUsingAccountTypeSupportedIntents">
+        <methods>
+          <include name="SavingsTypeForRecharge"/>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="CurrentTypeForRecharge"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC34VerifyUserAbleToRechargeUsingAccountTypeSupportedIntents -->
+      <class name="testcases.recharge.TC28_VerifyUserAbleToSelectOtherOperators">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="selectOtherOperator"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.recharge.TC28_VerifyUserAbleToSelectOtherOperators -->
+      <class name="testcases.productandservices.TC34PSInvestmentHowToInvestAccountHolderFlow">
+        <methods>
+          <include name="setData"/>
+          <include name="InvestAccountHolderFlow"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.productandservices.TC34PSInvestmentHowToInvestAccountHolderFlow -->
+    </classes>
+  </test> <!-- Vikram(failed) -->
+</suite> <!-- Failed suite [ConBank Test Suite for All modules] -->

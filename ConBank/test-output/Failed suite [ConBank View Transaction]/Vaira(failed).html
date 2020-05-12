@@ -1,0 +1,662 @@
+<html>
+<head>
+<title>TestNG:  Vaira(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vaira(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/12/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 29 16:34:33 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>833 seconds (833859 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1366811528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1366811528'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>40</td>
+<td>testcases.viewtransaction.TC16ViewTransactionAccountTypeEndingwithOtherAccountTypeNumber@7403c468</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC18ViewTransactionAccountNumberEndingwithWrong.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace585496942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace585496942'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC18ViewTransactionAccountNumberEndingwithWrong.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>36</td>
+<td>testcases.viewtransaction.TC18ViewTransactionAccountNumberEndingwithWrong@43738a82</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace453434455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace453434455'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>34</td>
+<td>testcases.viewtransaction.TC14ViewTransactionAccountTypeEndingwithCorrectAccountNumber@22eeefeb</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectAccountNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectAccountNumber</b><br>Test class: testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC17ViewTransactionAccountNumberEndingwith.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1154136178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1154136178'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ViewTransactionPage.VerifyViewTransactionCardTitle(ViewTransactionPage.java:74)
+	at testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectAccountNumber(TC17ViewTransactionAccountNumberEndingwith.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.viewtransaction.TC17ViewTransactionAccountNumberEndingwith@78ac1102</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.ViewTransactionAccountTypeEndingwithWrongAccountnumber()'><b>ViewTransactionAccountTypeEndingwithWrongAccountnumber</b><br>Test class: testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.ViewTransactionAccountTypeEndingwithWrongAccountnumber(TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace843251829", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace843251829'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.ViewTransactionAccountTypeEndingwithWrongAccountnumber(TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>35</td>
+<td>testcases.viewtransaction.TC15ViewTransactionAccountTypeEndingwithWrongAccountnumber@17d0685f</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus()'><b>ViewTransactionAxcessPlus</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus(TC05ViewTransactionAccountName.java:59)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace901751227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace901751227'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAxcessPlus(TC05ViewTransactionAccountName.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>38</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@1fc2b765</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard.ViewTransactionCASAaccountUtterance(TC22ViewTransactionCardTypeCreditCard.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1881420492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1881420492'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard.ViewTransactionCASAaccountUtterance(TC22ViewTransactionCardTypeCreditCard.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.viewtransaction.TC22ViewTransactionCardTypeCreditCard@3891771e</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance.ViewTransactionCASAaccountUtterance(TC12ViewTransactionCASAaccountUtterance.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096569961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096569961'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance.ViewTransactionCASAaccountUtterance(TC12ViewTransactionCASAaccountUtterance.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.viewtransaction.TC12ViewTransactionCASAaccountUtterance@a74868d</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance(TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1796165848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1796165848'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.ViewTransactionCASAaccountUtterance(TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>testcases.viewtransaction.TC23ViewTransactionCardTypeCreditCardWhenUserDonotHaveCard@12c8a2c0</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType.ViewTransactionCorrectCASAaccountType()'><b>ViewTransactionCorrectCASAaccountType</b><br>Test class: testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType.ViewTransactionCorrectCASAaccountType(TC10ViewTransactionCorrectCASAaccountType.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1590239729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1590239729'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType.ViewTransactionCorrectCASAaccountType(TC10ViewTransactionCorrectCASAaccountType.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>33</td>
+<td>testcases.viewtransaction.TC10ViewTransactionCorrectCASAaccountType@396e2f39</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue()'><b>ViewTransactionSupervalue</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue(TC05ViewTransactionAccountName.java:76)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace816821377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace816821377'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.VerifyClientResponseMessage(ViewTransactionPage.java:64)
+	at testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionSupervalue(TC05ViewTransactionAccountName.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>38</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@1fc2b765</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith.ViewTransactionWrongCardNumberEndingwith()'><b>ViewTransactionWrongCardNumberEndingwith</b><br>Test class: testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith.ViewTransactionWrongCardNumberEndingwith(TC20ViewTransactionWrongCardNumberEndingwith.java:40)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace152702981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace152702981'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ViewTransactionPage.verifyWrongAccountEndingText(ViewTransactionPage.java:100)
+	at testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith.ViewTransactionWrongCardNumberEndingwith(TC20ViewTransactionWrongCardNumberEndingwith.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>35</td>
+<td>testcases.viewtransaction.TC20ViewTransactionWrongCardNumberEndingwith@289d1c02</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.viewtransaction.TC05ViewTransactionAccountName.ViewTransactionAccountName()'><b>ViewTransactionAccountName</b><br>Test class: testcases.viewtransaction.TC05ViewTransactionAccountName</td>
+<td></td>
+<td>38</td>
+<td>testcases.viewtransaction.TC05ViewTransactionAccountName@1fc2b765</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith.ViewTransactionAccountTypeEndingwithCorrectCardNumber()'><b>ViewTransactionAccountTypeEndingwithCorrectCardNumber</b><br>Test class: testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith</td>
+<td></td>
+<td>28</td>
+<td>testcases.viewtransaction.TC19ViewTransactionCardNumberEndingwith@2de8284b</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard.ViewTransactionCASAaccountUtterance()'><b>ViewTransactionCASAaccountUtterance</b><br>Test class: testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard</td>
+<td></td>
+<td>39</td>
+<td>testcases.viewtransaction.TC21ViewTransactionCardTypeDebitCard@75881071</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck.ViewTransactionCorrectAccountNameBalanceCheck()'><b>ViewTransactionCorrectAccountNameBalanceCheck</b><br>Test class: testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck</td>
+<td></td>
+<td>35</td>
+<td>testcases.viewtransaction.TC06ViewTransactionCorrectAccountNameBalanceCheck@51c8530f</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC08ViewTransactionCorrectCardType.ViewTransactionCorrectCardType()'><b>ViewTransactionCorrectCardType</b><br>Test class: testcases.viewtransaction.TC08ViewTransactionCorrectCardType</td>
+<td></td>
+<td>36</td>
+<td>testcases.viewtransaction.TC08ViewTransactionCorrectCardType@13eb8acf</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC03ViewTransactionUsingUtterance.ViewTransactionUsingUtterance()'><b>ViewTransactionUsingUtterance</b><br>Test class: testcases.viewtransaction.TC03ViewTransactionUsingUtterance</td>
+<td></td>
+<td>33</td>
+<td>testcases.viewtransaction.TC03ViewTransactionUsingUtterance@2a70a3d8</td></tr>
+<tr>
+<td title='testcases.viewtransaction.TC09ViewTransactionWrongCardType.ViewTransactionWrongCardType()'><b>ViewTransactionWrongCardType</b><br>Test class: testcases.viewtransaction.TC09ViewTransactionWrongCardType</td>
+<td></td>
+<td>32</td>
+<td>testcases.viewtransaction.TC09ViewTransactionWrongCardType@c81cdd1</td></tr>
+</table><p>
+</body>
+</html>

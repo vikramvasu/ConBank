@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConBank Fundtransfer Own Account Request]">
+  <test thread-count="5" name="Vaira(failed)">
+    <classes>
+      <class name="testcases.fundtransfer.ownaccount.TC36FundsTransfertoOwnAccountsbyTOAccountTypeEndingWithDifferentAccountType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC36FundsTransfertoOwnAccountsbyTOAccountTypeEndingWithDifferentAccountType -->
+      <class name="testcases.fundtransfer.ownaccount.TC58FundTransferIsThereAnyThingElseICanHelpYouWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="FundTransferTransactionSuccessfulMessage"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC58FundTransferIsThereAnyThingElseICanHelpYouWith -->
+      <class name="testcases.fundtransfer.ownaccount.TC24FundTransferAccountTypeEndingwithCorrectAccountNumberCheck">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="FundTransferTransferfromCreditAccounts"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC24FundTransferAccountTypeEndingwithCorrectAccountNumberCheck -->
+      <class name="testcases.fundtransfer.ownaccount.TC32FundTransferOwnAccountsbyTOAccountTypeUserDontHaveAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="FundTransferWrongAccountNameTransferCheck"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC32FundTransferOwnAccountsbyTOAccountTypeUserDontHaveAccount -->
+      <class name="testcases.fundtransfer.ownaccount.TC46FundsTransferfromSavingAccountEndWithWrongtoSavingAccountEndWithWrongNumber">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="FundsTransferfromSavingAccountEndWithWrongtoSavingAccountEndWithWrongNumber"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC46FundsTransferfromSavingAccountEndWithWrongtoSavingAccountEndWithWrongNumber -->
+      <class name="testcases.fundtransfer.ownaccount.TC40FundsTransfer100fromEmployeeBankingAccounttoeSaverAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setData"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="FundsTransfer100fromEmployeeBankingAccounttoeSaverAccount"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC40FundsTransfer100fromEmployeeBankingAccounttoeSaverAccount -->
+      <class name="testcases.fundtransfer.ownaccount.TC47FundsTransferFromandToSameAccount">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="FundsTransferfromSavingAccountEndWithWrongtoSavingAccountEndWithWrongNumber"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC47FundsTransferFromandToSameAccount -->
+      <class name="testcases.fundtransfer.ownaccount.TC33FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount">
+        <methods>
+          <include name="FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC33FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount -->
+      <class name="testcases.fundtransfer.ownaccount.TC35FundsTransfertoOwnAccountsbyTOAccountTypeEndingWith">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC35FundsTransfertoOwnAccountsbyTOAccountTypeEndingWith -->
+      <class name="testcases.fundtransfer.ownaccount.TC37FundsTransfertoOwnAccountsbyTOAccountTypeEndingWithDifferentAccountType">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="FundsTransfertoOwnAccountsbyTOAccountTypeCreditAccount"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.fundtransfer.ownaccount.TC37FundsTransfertoOwnAccountsbyTOAccountTypeEndingWithDifferentAccountType -->
+    </classes>
+  </test> <!-- Vaira(failed) -->
+</suite> <!-- Failed suite [ConBank Fundtransfer Own Account Request] -->

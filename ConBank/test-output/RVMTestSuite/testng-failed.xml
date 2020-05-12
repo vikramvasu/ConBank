@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RVMTestSuite]">
+  <test thread-count="5" name="DBP15546(failed)">
+    <classes>
+      <class name="testcases.DBP15546">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="login"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP15546 -->
+    </classes>
+  </test> <!-- DBP15546(failed) -->
+</suite> <!-- Failed suite [RVMTestSuite] -->

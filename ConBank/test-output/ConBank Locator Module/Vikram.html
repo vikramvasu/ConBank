@@ -1,0 +1,337 @@
+<html>
+<head>
+<title>TestNG:  Vikram</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vikram</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 04 17:05:33 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1428 seconds (1428548 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.locator.TC23VerifyResponseForValidLocationForATMs.ResponseForValidLocOfATMs()'><b>ResponseForValidLocOfATMs</b><br>Test class: testcases.locator.TC23VerifyResponseForValidLocationForATMs</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyATMListTitle(LocatorPage.java:130)
+	at testcases.locator.TC23VerifyResponseForValidLocationForATMs.ResponseForValidLocOfATMs(TC23VerifyResponseForValidLocationForATMs.java:48)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace704104254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace704104254'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyATMListTitle(LocatorPage.java:130)
+	at testcases.locator.TC23VerifyResponseForValidLocationForATMs.ResponseForValidLocOfATMs(TC23VerifyResponseForValidLocationForATMs.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>54</td>
+<td>testcases.locator.TC23VerifyResponseForValidLocationForATMs@67b467e9</td></tr>
+<tr>
+<td title='testcases.locator.TC24VerifyResponseForValidLocationForBranches.ResponseForValidLocOfBranches()'><b>ResponseForValidLocOfBranches</b><br>Test class: testcases.locator.TC24VerifyResponseForValidLocationForBranches</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyBranchListTitle(LocatorPage.java:136)
+	at testcases.locator.TC24VerifyResponseForValidLocationForBranches.ResponseForValidLocOfBranches(TC24VerifyResponseForValidLocationForBranches.java:48)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace424579387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace424579387'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyBranchListTitle(LocatorPage.java:136)
+	at testcases.locator.TC24VerifyResponseForValidLocationForBranches.ResponseForValidLocOfBranches(TC24VerifyResponseForValidLocationForBranches.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>53</td>
+<td>testcases.locator.TC24VerifyResponseForValidLocationForBranches@47db50c5</td></tr>
+<tr>
+<td title='testcases.locator.TC03VerifyLocatorTextWithoutLogin.verifyLocatorTextInput()'><b>verifyLocatorTextInput</b><br>Test class: testcases.locator.TC03VerifyLocatorTextWithoutLogin</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyWelcomeText(LocatorPage.java:16)
+	at testcases.locator.TC03VerifyLocatorTextWithoutLogin.verifyLocatorTextInput(TC03VerifyLocatorTextWithoutLogin.java:32)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042917213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042917213'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:475)
+	at pages.LocatorPage.verifyWelcomeText(LocatorPage.java:16)
+	at testcases.locator.TC03VerifyLocatorTextWithoutLogin.verifyLocatorTextInput(TC03VerifyLocatorTextWithoutLogin.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>testcases.locator.TC03VerifyLocatorTextWithoutLogin@1990a65e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.locator.TC02VerifyLocatorIconIsClickableWithoutLoginFromWelcomeDropDown.clickLocatorIconFromDropDownBeforeLogin()'><b>clickLocatorIconFromDropDownBeforeLogin</b><br>Test class: testcases.locator.TC02VerifyLocatorIconIsClickableWithoutLoginFromWelcomeDropDown</td>
+<td></td>
+<td>20</td>
+<td>testcases.locator.TC02VerifyLocatorIconIsClickableWithoutLoginFromWelcomeDropDown@782663d3</td></tr>
+<tr>
+<td title='testcases.locator.TC04VerifyLocatorIconIsClickableAfterLoginFromWelcomePrompt.clickLocatorIconFromWelcomeScreenAfterLogin()'><b>clickLocatorIconFromWelcomeScreenAfterLogin</b><br>Test class: testcases.locator.TC04VerifyLocatorIconIsClickableAfterLoginFromWelcomePrompt</td>
+<td></td>
+<td>40</td>
+<td>testcases.locator.TC04VerifyLocatorIconIsClickableAfterLoginFromWelcomePrompt@64485a47</td></tr>
+<tr>
+<td title='testcases.locator.TC01VerifyLocatorIconIsClickableWithoutLoginFromWelcomePrompt.clickLocatorIconFromWelcomeScreenBeforeLogin()'><b>clickLocatorIconFromWelcomeScreenBeforeLogin</b><br>Test class: testcases.locator.TC01VerifyLocatorIconIsClickableWithoutLoginFromWelcomePrompt</td>
+<td></td>
+<td>19</td>
+<td>testcases.locator.TC01VerifyLocatorIconIsClickableWithoutLoginFromWelcomePrompt@42607a4f</td></tr>
+<tr>
+<td title='testcases.locator.TC25VerifyTheResponseForTheLocatorSupportedUtterance.responseForLocatorSupportedUtterance()'><b>responseForLocatorSupportedUtterance</b><br>Test class: testcases.locator.TC25VerifyTheResponseForTheLocatorSupportedUtterance</td>
+<td></td>
+<td>36</td>
+<td>testcases.locator.TC25VerifyTheResponseForTheLocatorSupportedUtterance@5c072e3f</td></tr>
+<tr>
+<td title='testcases.locator.TC05VerifyUserAbleToSelectLocatorType.selectLocatorTypeAfterLogin()'><b>selectLocatorTypeAfterLogin</b><br>Test class: testcases.locator.TC05VerifyUserAbleToSelectLocatorType</td>
+<td></td>
+<td>45</td>
+<td>testcases.locator.TC05VerifyUserAbleToSelectLocatorType@25bbf683</td></tr>
+<tr>
+<td title='testcases.locator.TC21VerifyUserAbleToClickTheShareLocationForATMs.userAbleToClickShareLocationForATMs()'><b>userAbleToClickShareLocationForATMs</b><br>Test class: testcases.locator.TC21VerifyUserAbleToClickTheShareLocationForATMs</td>
+<td></td>
+<td>42</td>
+<td>testcases.locator.TC21VerifyUserAbleToClickTheShareLocationForATMs@6eceb130</td></tr>
+<tr>
+<td title='testcases.locator.TC22VerifyUserAbleToClickTheShareLocationForBranches.userAbleToClickShareLocationForBranches()'><b>userAbleToClickShareLocationForBranches</b><br>Test class: testcases.locator.TC22VerifyUserAbleToClickTheShareLocationForBranches</td>
+<td></td>
+<td>43</td>
+<td>testcases.locator.TC22VerifyUserAbleToClickTheShareLocationForBranches@10a035a0</td></tr>
+<tr>
+<td title='testcases.locator.TC06VerifyUserAbleToEnterTheAddress.userAbleToEnterAddress()'><b>userAbleToEnterAddress</b><br>Test class: testcases.locator.TC06VerifyUserAbleToEnterTheAddress</td>
+<td></td>
+<td>42</td>
+<td>testcases.locator.TC06VerifyUserAbleToEnterTheAddress@6ec8211c</td></tr>
+<tr>
+<td title='testcases.locator.TC07VerifyUserAbleToViewListOfAllATMsForTheAddress.userAbleToViewAllATMsForGivenAddress()'><b>userAbleToViewAllATMsForGivenAddress</b><br>Test class: testcases.locator.TC07VerifyUserAbleToViewListOfAllATMsForTheAddress</td>
+<td></td>
+<td>53</td>
+<td>testcases.locator.TC07VerifyUserAbleToViewListOfAllATMsForTheAddress@7276c8cd</td></tr>
+<tr>
+<td title='testcases.locator.TC11VerifyUserAbleToViewListOfAllATMsForTheGivenArea.userAbleToViewAllATMsForGivenArea()'><b>userAbleToViewAllATMsForGivenArea</b><br>Test class: testcases.locator.TC11VerifyUserAbleToViewListOfAllATMsForTheGivenArea</td>
+<td></td>
+<td>55</td>
+<td>testcases.locator.TC11VerifyUserAbleToViewListOfAllATMsForTheGivenArea@4524411f</td></tr>
+<tr>
+<td title='testcases.locator.TC09VerifyUserAbleToViewListOfAllATMsForTheGivenCity.userAbleToViewAllATMsForGivenCity()'><b>userAbleToViewAllATMsForGivenCity</b><br>Test class: testcases.locator.TC09VerifyUserAbleToViewListOfAllATMsForTheGivenCity</td>
+<td></td>
+<td>55</td>
+<td>testcases.locator.TC09VerifyUserAbleToViewListOfAllATMsForTheGivenCity@2e3fc542</td></tr>
+<tr>
+<td title='testcases.locator.TC13VerifyUserAbleToViewListOfAllATMsForTheGivenPincode.userAbleToViewAllATMsForGivenPincode()'><b>userAbleToViewAllATMsForGivenPincode</b><br>Test class: testcases.locator.TC13VerifyUserAbleToViewListOfAllATMsForTheGivenPincode</td>
+<td></td>
+<td>55</td>
+<td>testcases.locator.TC13VerifyUserAbleToViewListOfAllATMsForTheGivenPincode@10dba097</td></tr>
+<tr>
+<td title='testcases.locator.TC08VerifyUserAbleToViewListOfAllBranchesForTheAddress.userAbleToViewAllBranchesForGivenAddress()'><b>userAbleToViewAllBranchesForGivenAddress</b><br>Test class: testcases.locator.TC08VerifyUserAbleToViewListOfAllBranchesForTheAddress</td>
+<td></td>
+<td>54</td>
+<td>testcases.locator.TC08VerifyUserAbleToViewListOfAllBranchesForTheAddress@544a2ea6</td></tr>
+<tr>
+<td title='testcases.locator.TC12VerifyUserAbleToViewListOfAllBranchesForTheGivenArea.userAbleToViewAllBranchesForGivenArea()'><b>userAbleToViewAllBranchesForGivenArea</b><br>Test class: testcases.locator.TC12VerifyUserAbleToViewListOfAllBranchesForTheGivenArea</td>
+<td></td>
+<td>56</td>
+<td>testcases.locator.TC12VerifyUserAbleToViewListOfAllBranchesForTheGivenArea@401e7803</td></tr>
+<tr>
+<td title='testcases.locator.TC10VerifyUserAbleToViewListOfAllBranchesForTheGivenCity.userAbleToViewAllBranchesForGivenCity()'><b>userAbleToViewAllBranchesForGivenCity</b><br>Test class: testcases.locator.TC10VerifyUserAbleToViewListOfAllBranchesForTheGivenCity</td>
+<td></td>
+<td>57</td>
+<td>testcases.locator.TC10VerifyUserAbleToViewListOfAllBranchesForTheGivenCity@150c158</td></tr>
+<tr>
+<td title='testcases.locator.TC14VerifyUserAbleToViewListOfAllBranchesForTheGivenPincode.userAbleToViewAllBranchesForGivenPincode()'><b>userAbleToViewAllBranchesForGivenPincode</b><br>Test class: testcases.locator.TC14VerifyUserAbleToViewListOfAllBranchesForTheGivenPincode</td>
+<td></td>
+<td>54</td>
+<td>testcases.locator.TC14VerifyUserAbleToViewListOfAllBranchesForTheGivenPincode@1786f9d5</td></tr>
+<tr>
+<td title='testcases.locator.TC15VerifyUserAbleToViewHoursForTheSearchedATMs.userAbleToViewHoursForTheSearchedATMs()'><b>userAbleToViewHoursForTheSearchedATMs</b><br>Test class: testcases.locator.TC15VerifyUserAbleToViewHoursForTheSearchedATMs</td>
+<td></td>
+<td>67</td>
+<td>testcases.locator.TC15VerifyUserAbleToViewHoursForTheSearchedATMs@704d6e83</td></tr>
+<tr>
+<td title='testcases.locator.TC16VerifyUserAbleToViewHoursForTheSearchedBranch.userAbleToViewHoursForTheSearchedBranches()'><b>userAbleToViewHoursForTheSearchedBranches</b><br>Test class: testcases.locator.TC16VerifyUserAbleToViewHoursForTheSearchedBranch</td>
+<td></td>
+<td>64</td>
+<td>testcases.locator.TC16VerifyUserAbleToViewHoursForTheSearchedBranch@43a0cee9</td></tr>
+<tr>
+<td title='testcases.locator.TC01VerifyLocatorIconIsAsPerUI.verifyLocatorIcon()'><b>verifyLocatorIcon</b><br>Test class: testcases.locator.TC01VerifyLocatorIconIsAsPerUI</td>
+<td></td>
+<td>11</td>
+<td>testcases.locator.TC01VerifyLocatorIconIsAsPerUI@4fb64261</td></tr>
+<tr>
+<td title='testcases.locator.TC17VerifyValidationMsgOfATMsForTheWrongInput.viewValidationMsgOfATMforWrongInput()'><b>viewValidationMsgOfATMforWrongInput</b><br>Test class: testcases.locator.TC17VerifyValidationMsgOfATMsForTheWrongInput</td>
+<td></td>
+<td>52</td>
+<td>testcases.locator.TC17VerifyValidationMsgOfATMsForTheWrongInput@eb21112</td></tr>
+<tr>
+<td title='testcases.locator.TC19VerifyValidationMsgOfATMsForTheWrongInputEnteredTwice.viewValidationMsgOfATMforWrongInputEnteredTwice()'><b>viewValidationMsgOfATMforWrongInputEnteredTwice</b><br>Test class: testcases.locator.TC19VerifyValidationMsgOfATMsForTheWrongInputEnteredTwice</td>
+<td></td>
+<td>68</td>
+<td>testcases.locator.TC19VerifyValidationMsgOfATMsForTheWrongInputEnteredTwice@3578436e</td></tr>
+<tr>
+<td title='testcases.locator.TC18VerifyValidationMsgOfBranchesForTheWrongInput.viewValidationMsgOfBranchforWrongInput()'><b>viewValidationMsgOfBranchforWrongInput</b><br>Test class: testcases.locator.TC18VerifyValidationMsgOfBranchesForTheWrongInput</td>
+<td></td>
+<td>51</td>
+<td>testcases.locator.TC18VerifyValidationMsgOfBranchesForTheWrongInput@2eda0940</td></tr>
+<tr>
+<td title='testcases.locator.TC20VerifyValidationMsgOfATBranchesForTheWrongInputEnteredTwice.viewValidationMsgOfBranchforWrongInputEnteredTwice()'><b>viewValidationMsgOfBranchforWrongInputEnteredTwice</b><br>Test class: testcases.locator.TC20VerifyValidationMsgOfATBranchesForTheWrongInputEnteredTwice</td>
+<td></td>
+<td>67</td>
+<td>testcases.locator.TC20VerifyValidationMsgOfATBranchesForTheWrongInputEnteredTwice@706a04ae</td></tr>
+</table><p>
+</body>
+</html>

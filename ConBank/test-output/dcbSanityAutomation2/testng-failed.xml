@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DBPSanityAutomation2]">
+  <test thread-count="5" name="Test0(failed)">
+    <parameter name="component" value="null"/>
+    <parameter name="label" value="BillPayee_create"/>
+    <classes>
+      <class name="lib.rest.GetAllKeys">
+        <methods>
+          <include name="getAllRequests"/>
+        </methods>
+      </class> <!-- lib.rest.GetAllKeys -->
+    </classes>
+  </test> <!-- Test0(failed) -->
+</suite> <!-- Failed suite [DBPSanityAutomation2] -->

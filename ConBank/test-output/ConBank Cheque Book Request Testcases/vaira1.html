@@ -1,0 +1,789 @@
+<html>
+<head>
+<title>TestNG:  vaira1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>vaira1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 27 19:14:14 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2977 seconds (2977475 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage()'><b>ManageCardsBlockCancellationMessage</b><br>Test class: testcases.managecards.TC11ManageCardsBlockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage(TC11ManageCardsBlockCancellationMessage.java:57)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1218320519", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1218320519'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage(TC11ManageCardsBlockCancellationMessage.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>55</td>
+<td>testcases.managecards.TC11ManageCardsBlockCancellationMessage@77846d2c</td></tr>
+<tr>
+<td title='testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage()'><b>ManageCardsIsthereanythingelseCheckinBlockCancellationMessage</b><br>Test class: testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage(TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.java:57)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435405303", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435405303'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage(TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>57</td>
+<td>testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage@4c762604</td></tr>
+<tr>
+<td title='testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC41ManageCardsUnblockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC41ManageCardsUnblockCancellationMessage.java:58)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace774443539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace774443539'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC41ManageCardsUnblockCancellationMessage.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>71</td>
+<td>testcases.managecards.TC41ManageCardsUnblockCancellationMessage@5123a213</td></tr>
+<tr>
+<td title='testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage(TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1082901202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1082901202'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage(TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage@52525845</td></tr>
+<tr>
+<td title='testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1141260246", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1141260246'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage@3b94d659</td></tr>
+<tr>
+<td title='testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText()'><b>ManageCardsUnblockCardsSelectionbyText</b><br>Test class: testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText(TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1039662436", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1039662436'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText(TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage@1f021e6c</td></tr>
+<tr>
+<td title='testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard()'><b>ManageCardsUnblockCreditCard</b><br>Test class: testcases.managecards.TC50ManageCardsUnblockCreditCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard(TC50ManageCardsUnblockCreditCard.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1453602120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1453602120'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard(TC50ManageCardsUnblockCreditCard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC50ManageCardsUnblockCreditCard@587c290d</td></tr>
+<tr>
+<td title='testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard()'><b>ManageCardsUnblockCreditCard</b><br>Test class: testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard(TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1146018895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1146018895'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard(TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard@4516af24</td></tr>
+<tr>
+<td title='testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC46ManageCardsInvalidinputwhileCardstoUnblockselection.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace845738361", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace845738361'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC46ManageCardsInvalidinputwhileCardstoUnblockselection.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>33</td>
+<td>testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection@281e3708</td></tr>
+<tr>
+<td title='testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.java:44)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace835666372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace835666372'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection@35a50a4c</td></tr>
+<tr>
+<td title='testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:376)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickBlockIcon(ManageCardsPage.java:195)
+	at testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage(TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.java:43)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878345674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878345674'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:376)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickBlockIcon(ManageCardsPage.java:195)
+	at testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage(TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>46</td>
+<td>testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage@103f852</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.managecards.TC01ManageCardIconCheck.ManageCardIconCheck()'><b>ManageCardIconCheck</b><br>Test class: testcases.managecards.TC01ManageCardIconCheck</td>
+<td></td>
+<td>13</td>
+<td>testcases.managecards.TC01ManageCardIconCheck@4d1b0d2a</td></tr>
+<tr>
+<td title='testcases.managecards.TC02ManageCardIconClickWithoutLogin.ManageCardIconClickWithoutLogin()'><b>ManageCardIconClickWithoutLogin</b><br>Test class: testcases.managecards.TC02ManageCardIconClickWithoutLogin</td>
+<td></td>
+<td>31</td>
+<td>testcases.managecards.TC02ManageCardIconClickWithoutLogin@954b04f</td></tr>
+<tr>
+<td title='testcases.managecards.TC03ManageCardsIconClickAfterLogin.ManageCardIconClickWithoutLogin()'><b>ManageCardIconClickWithoutLogin</b><br>Test class: testcases.managecards.TC03ManageCardsIconClickAfterLogin</td>
+<td></td>
+<td>28</td>
+<td>testcases.managecards.TC03ManageCardsIconClickAfterLogin@149494d8</td></tr>
+<tr>
+<td title='testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard()'><b>ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard</b><br>Test class: testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard</td>
+<td></td>
+<td>67</td>
+<td>testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard@2fd66ad3</td></tr>
+<tr>
+<td title='testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber.ManageCardsBlockCardNumberEndingWrongcardnumber()'><b>ManageCardsBlockCardNumberEndingWrongcardnumber</b><br>Test class: testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber</td>
+<td></td>
+<td>29</td>
+<td>testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber@5d11346a</td></tr>
+<tr>
+<td title='testcases.managecards.TC09ManageCardsBlockConfirmationMessage.ManageCardsBlockConfirmationMessage()'><b>ManageCardsBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC09ManageCardsBlockConfirmationMessage</td>
+<td></td>
+<td>53</td>
+<td>testcases.managecards.TC09ManageCardsBlockConfirmationMessage@545997b1</td></tr>
+<tr>
+<td title='testcases.managecards.TC20ManageCardsBlockCreditCard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC20ManageCardsBlockCreditCard</td>
+<td></td>
+<td>29</td>
+<td>testcases.managecards.TC20ManageCardsBlockCreditCard@2f0a87b3</td></tr>
+<tr>
+<td title='testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard</td>
+<td></td>
+<td>67</td>
+<td>testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard@319b92f3</td></tr>
+<tr>
+<td title='testcases.managecards.TC23ManageCardsBlockDebitCard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC23ManageCardsBlockDebitCard</td>
+<td></td>
+<td>30</td>
+<td>testcases.managecards.TC23ManageCardsBlockDebitCard@27d415d9</td></tr>
+<tr>
+<td title='testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard</td>
+<td></td>
+<td>67</td>
+<td>testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard@5c18298f</td></tr>
+<tr>
+<td title='testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard</td>
+<td></td>
+<td>93</td>
+<td>testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard@47db50c5</td></tr>
+<tr>
+<td title='testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName</td>
+<td></td>
+<td>68</td>
+<td>testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName@5579bb86</td></tr>
+<tr>
+<td title='testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName</td>
+<td></td>
+<td>71</td>
+<td>testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName@5204062d</td></tr>
+<tr>
+<td title='testcases.managecards.TC29ManageCardsBlockCardNumberEnding.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC29ManageCardsBlockCardNumberEnding</td>
+<td></td>
+<td>66</td>
+<td>testcases.managecards.TC29ManageCardsBlockCardNumberEnding@376b4233</td></tr>
+<tr>
+<td title='testcases.managecards.TC10ManageCardsBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage()'><b>ManageCardsBlockSuccessfulMessage</b><br>Test class: testcases.managecards.TC10ManageCardsBlockSuccessfulMessage</td>
+<td></td>
+<td>103</td>
+<td>testcases.managecards.TC10ManageCardsBlockSuccessfulMessage@4cf4d528</td></tr>
+<tr>
+<td title='testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage()'><b>ManageCardsBlockSuccessfulMessage</b><br>Test class: testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage</td>
+<td></td>
+<td>90</td>
+<td>testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage@548ad73b</td></tr>
+<tr>
+<td title='testcases.managecards.TC05ManageCardsBlockTypeDisplay.ManageCardsBlockUnblockTypeDisplay()'><b>ManageCardsBlockUnblockTypeDisplay</b><br>Test class: testcases.managecards.TC05ManageCardsBlockTypeDisplay</td>
+<td></td>
+<td>33</td>
+<td>testcases.managecards.TC05ManageCardsBlockTypeDisplay@646007f4</td></tr>
+<tr>
+<td title='testcases.managecards.TC35ManageCardsUnBlockTypeDisplay.ManageCardsBlockUnblockTypeDisplay()'><b>ManageCardsBlockUnblockTypeDisplay</b><br>Test class: testcases.managecards.TC35ManageCardsUnBlockTypeDisplay</td>
+<td></td>
+<td>28</td>
+<td>testcases.managecards.TC35ManageCardsUnBlockTypeDisplay@b3d7190</td></tr>
+<tr>
+<td title='testcases.managecards.TC07ManageCardsCardSelection.ManageCardsCardSelection()'><b>ManageCardsCardSelection</b><br>Test class: testcases.managecards.TC07ManageCardsCardSelection</td>
+<td></td>
+<td>47</td>
+<td>testcases.managecards.TC07ManageCardsCardSelection@78186a70</td></tr>
+<tr>
+<td title='testcases.managecards.TC33ManageCardsCardSelectionClick.ManageCardsCardSelection()'><b>ManageCardsCardSelection</b><br>Test class: testcases.managecards.TC33ManageCardsCardSelectionClick</td>
+<td></td>
+<td>43</td>
+<td>testcases.managecards.TC33ManageCardsCardSelectionClick@17211155</td></tr>
+<tr>
+<td title='testcases.managecards.TC08ManageCardsCardSelectionByText.ManageCardsCardSelectionByText()'><b>ManageCardsCardSelectionByText</b><br>Test class: testcases.managecards.TC08ManageCardsCardSelectionByText</td>
+<td></td>
+<td>52</td>
+<td>testcases.managecards.TC08ManageCardsCardSelectionByText@306279ee</td></tr>
+<tr>
+<td title='testcases.managecards.TC06ManageCardsClickBlockButton.ManageCardsClickBlockButton()'><b>ManageCardsClickBlockButton</b><br>Test class: testcases.managecards.TC06ManageCardsClickBlockButton</td>
+<td></td>
+<td>42</td>
+<td>testcases.managecards.TC06ManageCardsClickBlockButton@481a15ff</td></tr>
+<tr>
+<td title='testcases.managecards.TC36ManageCardsClickUnblockButton.ManageCardsClickUnblockButton()'><b>ManageCardsClickUnblockButton</b><br>Test class: testcases.managecards.TC36ManageCardsClickUnblockButton</td>
+<td></td>
+<td>34</td>
+<td>testcases.managecards.TC36ManageCardsClickUnblockButton@5fdba6f9</td></tr>
+<tr>
+<td title='testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection.ManageCardsInvalidInputwhileCardstoBlockSelection()'><b>ManageCardsInvalidInputwhileCardstoBlockSelection</b><br>Test class: testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection</td>
+<td></td>
+<td>42</td>
+<td>testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection@704921a5</td></tr>
+<tr>
+<td title='testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.ManageCardsInvalidinputwhileBlockConfirmationMessage()'><b>ManageCardsInvalidinputwhileBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage</td>
+<td></td>
+<td>47</td>
+<td>testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage@24a35978</td></tr>
+<tr>
+<td title='testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection.ManageCardsInvalidinputwhileBlockUnblockTypeselection()'><b>ManageCardsInvalidinputwhileBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection</td>
+<td></td>
+<td>37</td>
+<td>testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection@2641e737</td></tr>
+<tr>
+<td title='testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection.ManageCardsInvalidinputwhileBlockUnblockTypeselection()'><b>ManageCardsInvalidinputwhileBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection</td>
+<td></td>
+<td>34</td>
+<td>testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection@24b1d79b</td></tr>
+<tr>
+<td title='testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage</td>
+<td></td>
+<td>54</td>
+<td>testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage@16f7c8c1</td></tr>
+<tr>
+<td title='testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection.ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection</td>
+<td></td>
+<td>42</td>
+<td>testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection@727803de</td></tr>
+<tr>
+<td title='testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection.ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection</td>
+<td></td>
+<td>42</td>
+<td>testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection@68ceda24</td></tr>
+<tr>
+<td title='testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection.ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection()'><b>ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection</b><br>Test class: testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection</td>
+<td></td>
+<td>49</td>
+<td>testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection@df27fae</td></tr>
+<tr>
+<td title='testcases.managecards.TC37ManageCardsUnblockCardSelection.ManageCardsUnblockCardSelection()'><b>ManageCardsUnblockCardSelection</b><br>Test class: testcases.managecards.TC37ManageCardsUnblockCardSelection</td>
+<td></td>
+<td>149</td>
+<td>testcases.managecards.TC37ManageCardsUnblockCardSelection@10d59286</td></tr>
+<tr>
+<td title='testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText.ManageCardsUnblockCardsSelectionbyText()'><b>ManageCardsUnblockCardsSelectionbyText</b><br>Test class: testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText</td>
+<td></td>
+<td>65</td>
+<td>testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText@fe18270</td></tr>
+<tr>
+<td title='testcases.managecards.TC39ManageCardsUnblockConfirmationMessage.ManageCardsUnblockConfirmationMessage()'><b>ManageCardsUnblockConfirmationMessage</b><br>Test class: testcases.managecards.TC39ManageCardsUnblockConfirmationMessage</td>
+<td></td>
+<td>67</td>
+<td>testcases.managecards.TC39ManageCardsUnblockConfirmationMessage@6fb0d3ed</td></tr>
+<tr>
+<td title='testcases.managecards.TC40ManageCardsUnblockSuccessMessage.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC40ManageCardsUnblockSuccessMessage</td>
+<td></td>
+<td>67</td>
+<td>testcases.managecards.TC40ManageCardsUnblockSuccessMessage@6dde5c8c</td></tr>
+<tr>
+<td title='testcases.managecards.TC04ManageCardsUsingText.ManageCardsUsingText()'><b>ManageCardsUsingText</b><br>Test class: testcases.managecards.TC04ManageCardsUsingText</td>
+<td></td>
+<td>32</td>
+<td>testcases.managecards.TC04ManageCardsUsingText@710726a3</td></tr>
+<tr>
+<td title='testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock()'><b>ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock</b><br>Test class: testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock</td>
+<td></td>
+<td>75</td>
+<td>testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock@7a36aefa</td></tr>
+<tr>
+<td title='testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock()'><b>ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock</b><br>Test class: testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock</td>
+<td></td>
+<td>38</td>
+<td>testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock@5c072e3f</td></tr>
+<tr>
+<td title='testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName.ManageCardsValidationMessageDisplayforWrongCardName()'><b>ManageCardsValidationMessageDisplayforWrongCardName</b><br>Test class: testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName</td>
+<td></td>
+<td>33</td>
+<td>testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName@4fcd19b3</td></tr>
+<tr>
+<td title='testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard.ManageCardsValidationMessageDisplaywhenuserhavenoDebitcard()'><b>ManageCardsValidationMessageDisplaywhenuserhavenoDebitcard</b><br>Test class: testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard</td>
+<td></td>
+<td>29</td>
+<td>testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard@31f924f5</td></tr>
+<tr>
+<td title='testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard.ManageCardsValidationMessageDisplaywhenuserhavenocreditcard()'><b>ManageCardsValidationMessageDisplaywhenuserhavenocreditcard</b><br>Test class: testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard</td>
+<td></td>
+<td>28</td>
+<td>testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard@fcd6521</td></tr>
+</table><p>
+</body>
+</html>

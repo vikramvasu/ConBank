@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DBPSanityAutomation]">
+  <test thread-count="5" name="Test18(failed)">
+    <classes>
+      <class name="testcases.DBP16037andDBP16040">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="DBP16037andDBP16040" invocation-numbers="0"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP16037andDBP16040 -->
+    </classes>
+  </test> <!-- Test18(failed) -->
+  <test thread-count="5" name="Test19(failed)">
+    <classes>
+      <class name="testcases.DBP16042andDBP16044">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="DBP16044" invocation-numbers="0"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP16042andDBP16044 -->
+    </classes>
+  </test> <!-- Test19(failed) -->
+  <test thread-count="5" name="Test20(failed)">
+    <classes>
+      <class name="testcases.DBP16045">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="DBP16045CheckerApproval" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DBP16045 -->
+    </classes>
+  </test> <!-- Test20(failed) -->
+  <test thread-count="5" name="Test21(failed)">
+    <classes>
+      <class name="testcases.DBP16046">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="DBP16046CheckerReject" invocation-numbers="0"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.DBP16046 -->
+    </classes>
+  </test> <!-- Test21(failed) -->
+</suite> <!-- Failed suite [DBPSanityAutomation] -->

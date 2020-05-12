@@ -1,0 +1,42 @@
+package testcases.productandservices;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import pages.ProductsAndServicesPage;
+
+
+
+public class TC05PSListofLoanSubMenuCheck2 extends wrappers.ProjectWrappers{
+
+	public TC05PSListofLoanSubMenuCheck2() throws IOException {
+		super();
+		
+		// TODO Auto-generated constructor stub
+	}
+
+	@BeforeClass
+	public void setData() {
+		TestCaseName="TC05 - To Verify if user enter or tap on Loans - Sub menu  ";
+		TestDescription="Product and Services";
+		browserName="chrome";
+		Application="Product and Services";
+		Authors="Vairamuthu";
+	}
+	
+
+	@Test
+	public void ListofLoanSubMenuCheck() throws Exception
+	{
+		new ProductsAndServicesPage(driver, test)
+		.ClickSplashLogo()
+		.EnterTextArea("Product and Services")
+		.VerifyMainmenu("Loans")
+		.VerifySubmenu("Home Loan for OFWs")
+		.VerifySubmenu("Smart Home Loan")
+		.VerifySubmenu("Smart Car Loan")
+		.VerifySubmenu("Apply Now");
+	}	
+}

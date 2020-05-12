@@ -1,0 +1,1575 @@
+<html>
+<head>
+<title>TestNG:  managecards</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>managecards</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/34/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 11 19:57:04 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2081 seconds (2081661 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.managecards.TC03ManageCardsIconClickAfterLogin.ManageCardIconClickWithoutLogin()'><b>ManageCardIconClickWithoutLogin</b><br>Test class: testcases.managecards.TC03ManageCardsIconClickAfterLogin</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:367)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickManageCardsLogo(ManageCardsPage.java:75)
+	at testcases.managecards.TC03ManageCardsIconClickAfterLogin.ManageCardIconClickWithoutLogin(TC03ManageCardsIconClickAfterLogin.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855261647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855261647'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:367)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickManageCardsLogo(ManageCardsPage.java:75)
+	at testcases.managecards.TC03ManageCardsIconClickAfterLogin.ManageCardIconClickWithoutLogin(TC03ManageCardsIconClickAfterLogin.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC03ManageCardsIconClickAfterLogin@5e57643e</td></tr>
+<tr>
+<td title='testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage()'><b>ManageCardsBlockCancellationMessage</b><br>Test class: testcases.managecards.TC11ManageCardsBlockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage(TC11ManageCardsBlockCancellationMessage.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301987508", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301987508'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC11ManageCardsBlockCancellationMessage.ManageCardsBlockCancellationMessage(TC11ManageCardsBlockCancellationMessage.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>37</td>
+<td>testcases.managecards.TC11ManageCardsBlockCancellationMessage@2473b9ce</td></tr>
+<tr>
+<td title='testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard()'><b>ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard</b><br>Test class: testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard(TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace455888635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace455888635'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard(TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC30ManageCardsBlockCardNumberEndingWithUserhaveonlyonecard@70a9f84e</td></tr>
+<tr>
+<td title='testcases.managecards.TC09ManageCardsBlockConfirmationMessage.ManageCardsBlockConfirmationMessage()'><b>ManageCardsBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC09ManageCardsBlockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC09ManageCardsBlockConfirmationMessage.ManageCardsBlockConfirmationMessage(TC09ManageCardsBlockConfirmationMessage.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace87060781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace87060781'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC09ManageCardsBlockConfirmationMessage.ManageCardsBlockConfirmationMessage(TC09ManageCardsBlockConfirmationMessage.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>38</td>
+<td>testcases.managecards.TC09ManageCardsBlockConfirmationMessage@5e955596</td></tr>
+<tr>
+<td title='testcases.managecards.TC20ManageCardsBlockCreditCard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC20ManageCardsBlockCreditCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC20ManageCardsBlockCreditCard.ManageCardsBlockCreditCard(TC20ManageCardsBlockCreditCard.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1495608502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1495608502'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC20ManageCardsBlockCreditCard.ManageCardsBlockCreditCard(TC20ManageCardsBlockCreditCard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC20ManageCardsBlockCreditCard@76b10754</td></tr>
+<tr>
+<td title='testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.verifyWelcomeUserName(ManageCardsPage.java:96)
+	at testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsBlockCreditCard(TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.java:42)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1521238608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1521238608'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.verifyWelcomeUserName(ManageCardsPage.java:96)
+	at testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsBlockCreditCard(TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>testcases.managecards.TC21ManageCardsBlockCreditCardWhenUserhaveOneCreditcard@2bea5ab4</td></tr>
+<tr>
+<td title='testcases.managecards.TC23ManageCardsBlockDebitCard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC23ManageCardsBlockDebitCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC23ManageCardsBlockDebitCard.ManageCardsBlockCreditCard(TC23ManageCardsBlockDebitCard.java:45)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30699728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30699728'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC23ManageCardsBlockDebitCard.ManageCardsBlockCreditCard(TC23ManageCardsBlockDebitCard.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>31</td>
+<td>testcases.managecards.TC23ManageCardsBlockDebitCard@2df32bf7</td></tr>
+<tr>
+<td title='testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:376)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickConfirmButton(ManageCardsPage.java:132)
+	at testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.ManageCardsBlockDebitCardbyCardName(ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.java:57)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1917025677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1917025677'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.clickWrapper(GenericWrappers.java:376)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:760)
+	at pages.ManageCardsPage.clickConfirmButton(ManageCardsPage.java:132)
+	at testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.ManageCardsBlockDebitCardbyCardName(ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>85</td>
+<td>testcases.managecards.ManageCardsusingCardNumberEndingwithUserhaveonlyoneCard@48a242ce</td></tr>
+<tr>
+<td title='testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName.ManageCardsBlockDebitCardbyCardName(TC26ManageCardsBlockDebitCardbyCardName.java:55)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1642679791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1642679791'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName.ManageCardsBlockDebitCardbyCardName(TC26ManageCardsBlockDebitCardbyCardName.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>53</td>
+<td>testcases.managecards.TC26ManageCardsBlockDebitCardbyCardName@f4168b8</td></tr>
+<tr>
+<td title='testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName.ManageCardsBlockDebitCardbyCardName(TC27ManageCardsBlockCreditCardbyCardName.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace793293778", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace793293778'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName.ManageCardsBlockDebitCardbyCardName(TC27ManageCardsBlockCreditCardbyCardName.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>25</td>
+<td>testcases.managecards.TC27ManageCardsBlockCreditCardbyCardName@3bd94634</td></tr>
+<tr>
+<td title='testcases.managecards.TC29ManageCardsBlockCardNumberEnding.ManageCardsBlockDebitCardbyCardName()'><b>ManageCardsBlockDebitCardbyCardName</b><br>Test class: testcases.managecards.TC29ManageCardsBlockCardNumberEnding</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC29ManageCardsBlockCardNumberEnding.ManageCardsBlockDebitCardbyCardName(TC29ManageCardsBlockCardNumberEnding.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2018260103", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2018260103'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC29ManageCardsBlockCardNumberEnding.ManageCardsBlockDebitCardbyCardName(TC29ManageCardsBlockCardNumberEnding.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
+<td>testcases.managecards.TC29ManageCardsBlockCardNumberEnding@74294adb</td></tr>
+<tr>
+<td title='testcases.managecards.TC10ManageCardsBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage()'><b>ManageCardsBlockSuccessfulMessage</b><br>Test class: testcases.managecards.TC10ManageCardsBlockSuccessfulMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC10ManageCardsBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage(TC10ManageCardsBlockSuccessfulMessage.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1832669781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1832669781'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC10ManageCardsBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage(TC10ManageCardsBlockSuccessfulMessage.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>36</td>
+<td>testcases.managecards.TC10ManageCardsBlockSuccessfulMessage@50de0926</td></tr>
+<tr>
+<td title='testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage()'><b>ManageCardsBlockSuccessfulMessage</b><br>Test class: testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage(TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1979787155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1979787155'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.ManageCardsBlockSuccessfulMessage(TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>36</td>
+<td>testcases.managecards.TC12ManageCardsIsthereanythingelseCheckinBlockSuccessfulMessage@60438a68</td></tr>
+<tr>
+<td title='testcases.managecards.TC07ManageCardsCardSelection.ManageCardsCardSelection()'><b>ManageCardsCardSelection</b><br>Test class: testcases.managecards.TC07ManageCardsCardSelection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC07ManageCardsCardSelection.ManageCardsCardSelection(TC07ManageCardsCardSelection.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1104422581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1104422581'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC07ManageCardsCardSelection.ManageCardsCardSelection(TC07ManageCardsCardSelection.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>38</td>
+<td>testcases.managecards.TC07ManageCardsCardSelection@7f416310</td></tr>
+<tr>
+<td title='testcases.managecards.TC33ManageCardsCardSelectionClick.ManageCardsCardSelection()'><b>ManageCardsCardSelection</b><br>Test class: testcases.managecards.TC33ManageCardsCardSelectionClick</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC33ManageCardsCardSelectionClick.ManageCardsCardSelection(TC33ManageCardsCardSelectionClick.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1805164661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1805164661'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC33ManageCardsCardSelectionClick.ManageCardsCardSelection(TC33ManageCardsCardSelectionClick.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>37</td>
+<td>testcases.managecards.TC33ManageCardsCardSelectionClick@2f490758</td></tr>
+<tr>
+<td title='testcases.managecards.TC08ManageCardsCardSelectionByText.ManageCardsCardSelectionByText()'><b>ManageCardsCardSelectionByText</b><br>Test class: testcases.managecards.TC08ManageCardsCardSelectionByText</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC08ManageCardsCardSelectionByText.ManageCardsCardSelectionByText(TC08ManageCardsCardSelectionByText.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace582666172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace582666172'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC08ManageCardsCardSelectionByText.ManageCardsCardSelectionByText(TC08ManageCardsCardSelectionByText.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>38</td>
+<td>testcases.managecards.TC08ManageCardsCardSelectionByText@1cab0bfb</td></tr>
+<tr>
+<td title='testcases.managecards.TC36ManageCardsClickUnblockButton.ManageCardsClickUnblockButton()'><b>ManageCardsClickUnblockButton</b><br>Test class: testcases.managecards.TC36ManageCardsClickUnblockButton</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC36ManageCardsClickUnblockButton.ManageCardsClickUnblockButton(TC36ManageCardsClickUnblockButton.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace788905599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace788905599'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardClientMessage(ManageCardsPage.java:180)
+	at testcases.managecards.TC36ManageCardsClickUnblockButton.ManageCardsClickUnblockButton(TC36ManageCardsClickUnblockButton.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>35</td>
+<td>testcases.managecards.TC36ManageCardsClickUnblockButton@166fa74d</td></tr>
+<tr>
+<td title='testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.ManageCardsInvalidinputwhileBlockConfirmationMessage()'><b>ManageCardsInvalidinputwhileBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.ManageCardsInvalidinputwhileBlockConfirmationMessage(TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.java:50)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1976401987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1976401987'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.ManageCardsInvalidinputwhileBlockConfirmationMessage(TC18ManageCardsInvalidinputwhileBlockConfirmationMessage.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>43</td>
+<td>testcases.managecards.TC18ManageCardsInvalidinputwhileBlockConfirmationMessage@6c9f5c0d</td></tr>
+<tr>
+<td title='testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage()'><b>ManageCardsIsthereanythingelseCheckinBlockCancellationMessage</b><br>Test class: testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage(TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.java:49)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace712410124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace712410124'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.ManageCardsIsthereanythingelseCheckinBlockCancellationMessage(TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>37</td>
+<td>testcases.managecards.TC13ManageCardsIsthereanythingelseCheckinBlockCancellationMessage@140e5a13</td></tr>
+<tr>
+<td title='testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage</b><br>Test class: testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage(TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.java:50)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831010686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831010686'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:474)
+	at pages.ManageCardsPage.VerifyManageCardConfirmationMessage(ManageCardsPage.java:220)
+	at testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage(TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>42</td>
+<td>testcases.managecards.TC19ManageCardsTwoConsecutiveWrongEntryinBlockConfirmationMessage@de3a06f</td></tr>
+<tr>
+<td title='testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC41ManageCardsUnblockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC41ManageCardsUnblockCancellationMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1272051933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1272051933'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC41ManageCardsUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC41ManageCardsUnblockCancellationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC41ManageCardsUnblockCancellationMessage@77a57272</td></tr>
+<tr>
+<td title='testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage(TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace244872973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace244872973'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.ManageCardsUnblockCancellationMessage(TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC42ManageCardsIsthereanythingelseCheckinUnblockSuccessfulMessage@7181ae3f</td></tr>
+<tr>
+<td title='testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage()'><b>ManageCardsUnblockCancellationMessage</b><br>Test class: testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace712410791", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace712410791'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.ManageCardsUnblockCancellationMessage(TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC43ManageCardsIsthereanythingelseCheckinUnblockCancellationMessage@46238e3f</td></tr>
+<tr>
+<td title='testcases.managecards.TC37ManageCardsUnblockCardSelection.ManageCardsUnblockCardSelection()'><b>ManageCardsUnblockCardSelection</b><br>Test class: testcases.managecards.TC37ManageCardsUnblockCardSelection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC37ManageCardsUnblockCardSelection.ManageCardsUnblockCardSelection(TC37ManageCardsUnblockCardSelection.java:47)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace399373008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace399373008'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC37ManageCardsUnblockCardSelection.ManageCardsUnblockCardSelection(TC37ManageCardsUnblockCardSelection.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>35</td>
+<td>testcases.managecards.TC37ManageCardsUnblockCardSelection@40f08448</td></tr>
+<tr>
+<td title='testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText.ManageCardsUnblockCardsSelectionbyText()'><b>ManageCardsUnblockCardsSelectionbyText</b><br>Test class: testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText.ManageCardsUnblockCardsSelectionbyText(TC38ManageCardsUnblockCardsSelectionbyText.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace352776719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352776719'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText.ManageCardsUnblockCardsSelectionbyText(TC38ManageCardsUnblockCardsSelectionbyText.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>28</td>
+<td>testcases.managecards.TC38ManageCardsUnblockCardsSelectionbyText@276438c9</td></tr>
+<tr>
+<td title='testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText()'><b>ManageCardsUnblockCardsSelectionbyText</b><br>Test class: testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText(TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862994526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862994526'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.ManageCardsUnblockCardsSelectionbyText(TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>testcases.managecards.TC48ManageCardsInvalidinputwhileUnblockConfirmationMessage@1efee8e7</td></tr>
+<tr>
+<td title='testcases.managecards.TC39ManageCardsUnblockConfirmationMessage.ManageCardsUnblockConfirmationMessage()'><b>ManageCardsUnblockConfirmationMessage</b><br>Test class: testcases.managecards.TC39ManageCardsUnblockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC39ManageCardsUnblockConfirmationMessage.ManageCardsUnblockConfirmationMessage(TC39ManageCardsUnblockConfirmationMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1242688388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1242688388'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC39ManageCardsUnblockConfirmationMessage.ManageCardsUnblockConfirmationMessage(TC39ManageCardsUnblockConfirmationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>testcases.managecards.TC39ManageCardsUnblockConfirmationMessage@588df31b</td></tr>
+<tr>
+<td title='testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard()'><b>ManageCardsUnblockCreditCard</b><br>Test class: testcases.managecards.TC50ManageCardsUnblockCreditCard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard(TC50ManageCardsUnblockCreditCard.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace565881091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace565881091'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC50ManageCardsUnblockCreditCard.ManageCardsUnblockCreditCard(TC50ManageCardsUnblockCreditCard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC50ManageCardsUnblockCreditCard@76a4d6c</td></tr>
+<tr>
+<td title='testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard()'><b>ManageCardsUnblockCreditCard</b><br>Test class: testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard(TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace588449070", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace588449070'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.ManageCardsUnblockCreditCard(TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC51ManageCardsUnBlockCreditCardWhenUserhaveOneCreditcard@517cd4b</td></tr>
+<tr>
+<td title='testcases.managecards.TC40ManageCardsUnblockSuccessMessage.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC40ManageCardsUnblockSuccessMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC40ManageCardsUnblockSuccessMessage.ManageCardsUnblockSuccessMessage(TC40ManageCardsUnblockSuccessMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095677157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2095677157'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC40ManageCardsUnblockSuccessMessage.ManageCardsUnblockSuccessMessage(TC40ManageCardsUnblockSuccessMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC40ManageCardsUnblockSuccessMessage@33b37288</td></tr>
+<tr>
+<td title='testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC46ManageCardsInvalidinputwhileCardstoUnblockselection.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace396918327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace396918327'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC46ManageCardsInvalidinputwhileCardstoUnblockselection.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>28</td>
+<td>testcases.managecards.TC46ManageCardsInvalidinputwhileCardstoUnblockselection@4e4aea35</td></tr>
+<tr>
+<td title='testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2029780820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2029780820'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.ManageCardsUnblockSuccessMessage(TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>testcases.managecards.TC47ManageCardsTwoConsecutiveWrongEntryinCardstoUnblockselection@1442d7b5</td></tr>
+<tr>
+<td title='testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage()'><b>ManageCardsUnblockSuccessMessage</b><br>Test class: testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage(TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1543518287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1543518287'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.ManageCardsUnblockSuccessMessage(TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>28</td>
+<td>testcases.managecards.TC49ManageCardsTwoConsecutiveWrongEntryinUnBlockConfirmationMessage@1ee807c6</td></tr>
+<tr>
+<td title='testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName.ManageCardsValidationMessageDisplayforWrongCardName()'><b>ManageCardsValidationMessageDisplayforWrongCardName</b><br>Test class: testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName.ManageCardsValidationMessageDisplayforWrongCardName(TC28ManageCardsValidationMessageDisplayforWrongCardName.java:45)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1760219993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1760219993'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:29)
+	at wrappers.GenericWrappers.verifyElementisPresent(GenericWrappers.java:1163)
+	at pages.ManageCardsPage.VerifyCardIsPresent(ManageCardsPage.java:215)
+	at testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName.ManageCardsValidationMessageDisplayforWrongCardName(TC28ManageCardsValidationMessageDisplayforWrongCardName.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>testcases.managecards.TC28ManageCardsValidationMessageDisplayforWrongCardName@58a90037</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.managecards.TC01ManageCardIconCheck.ManageCardIconCheck()'><b>ManageCardIconCheck</b><br>Test class: testcases.managecards.TC01ManageCardIconCheck</td>
+<td></td>
+<td>9</td>
+<td>testcases.managecards.TC01ManageCardIconCheck@4f51b3e0</td></tr>
+<tr>
+<td title='testcases.managecards.TC02ManageCardIconClickWithoutLogin.ManageCardIconClickWithoutLogin()'><b>ManageCardIconClickWithoutLogin</b><br>Test class: testcases.managecards.TC02ManageCardIconClickWithoutLogin</td>
+<td></td>
+<td>23</td>
+<td>testcases.managecards.TC02ManageCardIconClickWithoutLogin@4b9e255</td></tr>
+<tr>
+<td title='testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber.ManageCardsBlockCardNumberEndingWrongcardnumber()'><b>ManageCardsBlockCardNumberEndingWrongcardnumber</b><br>Test class: testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber</td>
+<td></td>
+<td>27</td>
+<td>testcases.managecards.TC31ManageCardsBlockCardNumberEndingWrongcardnumber@130f889</td></tr>
+<tr>
+<td title='testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard.ManageCardsBlockCreditCard()'><b>ManageCardsBlockCreditCard</b><br>Test class: testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard</td>
+<td></td>
+<td>62</td>
+<td>testcases.managecards.TC24ManageCardsBlockCreditCardWhenUserhaveOneDebitcard@530612ba</td></tr>
+<tr>
+<td title='testcases.managecards.TC05ManageCardsBlockTypeDisplay.ManageCardsBlockUnblockTypeDisplay()'><b>ManageCardsBlockUnblockTypeDisplay</b><br>Test class: testcases.managecards.TC05ManageCardsBlockTypeDisplay</td>
+<td></td>
+<td>26</td>
+<td>testcases.managecards.TC05ManageCardsBlockTypeDisplay@51b279c9</td></tr>
+<tr>
+<td title='testcases.managecards.TC35ManageCardsUnBlockTypeDisplay.ManageCardsBlockUnblockTypeDisplay()'><b>ManageCardsBlockUnblockTypeDisplay</b><br>Test class: testcases.managecards.TC35ManageCardsUnBlockTypeDisplay</td>
+<td></td>
+<td>25</td>
+<td>testcases.managecards.TC35ManageCardsUnBlockTypeDisplay@101df177</td></tr>
+<tr>
+<td title='testcases.managecards.TC06ManageCardsClickBlockButton.ManageCardsClickBlockButton()'><b>ManageCardsClickBlockButton</b><br>Test class: testcases.managecards.TC06ManageCardsClickBlockButton</td>
+<td></td>
+<td>32</td>
+<td>testcases.managecards.TC06ManageCardsClickBlockButton@1ad282e0</td></tr>
+<tr>
+<td title='testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection.ManageCardsInvalidInputwhileCardstoBlockSelection()'><b>ManageCardsInvalidInputwhileCardstoBlockSelection</b><br>Test class: testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection</td>
+<td></td>
+<td>38</td>
+<td>testcases.managecards.TC16ManageCardsInvalidInputwhileCardstoBlockSelection@71d15f18</td></tr>
+<tr>
+<td title='testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection.ManageCardsInvalidinputwhileBlockUnblockTypeselection()'><b>ManageCardsInvalidinputwhileBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection</td>
+<td></td>
+<td>32</td>
+<td>testcases.managecards.TC14ManageCardsInvalidinputwhileBlockTypeselection@3439f68d</td></tr>
+<tr>
+<td title='testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection.ManageCardsInvalidinputwhileBlockUnblockTypeselection()'><b>ManageCardsInvalidinputwhileBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection</td>
+<td></td>
+<td>32</td>
+<td>testcases.managecards.TC44ManageCardsInvalidinputwhileUnblockTypeselection@6e2c9341</td></tr>
+<tr>
+<td title='testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection.ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection</td>
+<td></td>
+<td>41</td>
+<td>testcases.managecards.TC15ManageCardsTwoConsecutiveWrongEntryinBlockTypeselection@dbd940d</td></tr>
+<tr>
+<td title='testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection.ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection()'><b>ManageCardsTwoConsecutiveWrongEntryinBlockUnblockTypeselection</b><br>Test class: testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection</td>
+<td></td>
+<td>40</td>
+<td>testcases.managecards.TC45ManageCardsTwoConsecutiveWrongEntryinUnblockTypeselection@32464a14</td></tr>
+<tr>
+<td title='testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection.ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection()'><b>ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection</b><br>Test class: testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection</td>
+<td></td>
+<td>44</td>
+<td>testcases.managecards.TC17ManageCardsTwoConsecutiveWrongEntryinCardstoblockselection@17695df3</td></tr>
+<tr>
+<td title='testcases.managecards.TC04ManageCardsUsingText.ManageCardsUsingText()'><b>ManageCardsUsingText</b><br>Test class: testcases.managecards.TC04ManageCardsUsingText</td>
+<td></td>
+<td>23</td>
+<td>testcases.managecards.TC04ManageCardsUsingText@133e16fd</td></tr>
+<tr>
+<td title='testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock()'><b>ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock</b><br>Test class: testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock</td>
+<td></td>
+<td>68</td>
+<td>testcases.managecards.TC32ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoBlock@1188e820</td></tr>
+<tr>
+<td title='testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock()'><b>ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock</b><br>Test class: testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock</td>
+<td></td>
+<td>31</td>
+<td>testcases.managecards.ManageCardsValidaitonMessageDisplayforUserNOThavingCardstoUnblock@1e4a7dd4</td></tr>
+<tr>
+<td title='testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard.ManageCardsValidationMessageDisplaywhenuserhavenoDebitcard()'><b>ManageCardsValidationMessageDisplaywhenuserhavenoDebitcard</b><br>Test class: testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard</td>
+<td></td>
+<td>26</td>
+<td>testcases.managecards.TC25ManageCardsValidationMessageDisplaywhenuserhaveNoDebitcard@2a40cd94</td></tr>
+<tr>
+<td title='testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard.ManageCardsValidationMessageDisplaywhenuserhavenocreditcard()'><b>ManageCardsValidationMessageDisplaywhenuserhavenocreditcard</b><br>Test class: testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard</td>
+<td></td>
+<td>26</td>
+<td>testcases.managecards.TC22ManageCardsValidationMessageDisplayWhenUserhaveNoCreditcard@3d8314f0</td></tr>
+</table><p>
+</body>
+</html>
